@@ -1,0 +1,62 @@
+{
+ "id": "l01",
+ "key": "fe220eddfdc5",
+ "text": "ते बोलू शकत नाहीत, पण त्यांनाही वेदना होतात.",
+ "lang": "mr",
+ "voice": "mr-IN-AarohiNeural",
+ "rate": "-4%",
+ "pitch": "+0Hz",
+ "duration": 3.755,
+ "words": [
+  {
+   "text": "ते",
+   "start": 0.01,
+   "end": 0.135,
+   "conf": 0.996
+  },
+  {
+   "text": "बोलू",
+   "start": 0.23,
+   "end": 0.575,
+   "conf": 0.974
+  },
+  {
+   "text": "शकत",
+   "start": 0.63,
+   "end": 0.935,
+   "conf": 0.732
+  },
+  {
+   "text": "नाहीत,",
+   "start": 1.01,
+   "end": 1.575,
+   "conf": 0.619
+  },
+  {
+   "text": "पण",
+   "start": 1.77,
+   "end": 1.995,
+   "conf": 0.435
+  },
+  {
+   "text": "त्यांनाही",
+   "start": 2.05,
+   "end": 2.635,
+   "conf": 0.919
+  },
+  {
+   "text": "वेदना",
+   "start": 2.69,
+   "end": 3.175,
+   "conf": 0.945
+  },
+  {
+   "text": "होतात.",
+   "start": 3.21,
+   "end": 3.615,
+   "conf": 0.93
+  }
+ ],
+ "engine": "edge-tts",
+ "timing": "mms-align on the generated audio"
+}

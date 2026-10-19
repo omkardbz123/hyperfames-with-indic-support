@@ -1,0 +1,17 @@
+{
+ "provider": "commons",
+ "id": "82559492",
+ "kind": "photo",
+ "title": "Cow, Bulandshahr, India (2012)",
+ "author": "Whispyhistory",
+ "license": "CC BY-SA 4.0",
+ "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+ "page": "https://commons.wikimedia.org/wiki/File:Cow,_Bulandshahr,_India_(2012).png",
+ "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Cow%2C_Bulandshahr%2C_India_%282012%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+ "w": 1604,
+ "h": 1936,
+ "duration": null,
+ "file": "82559492_up.png",
+ "downloaded": "2026-10-19",
+ "derived": "upscaled with Real-ESRGAN x4plus (tools/fx.py upscale)"
+}

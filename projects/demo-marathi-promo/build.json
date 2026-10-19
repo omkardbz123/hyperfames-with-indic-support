@@ -1,0 +1,937 @@
+{
+ "title": "GoaALM Marathi promo (demo)",
+ "slug": "demo-marathi-promo",
+ "recipe": "promo",
+ "built_at": "2026-10-19T17:01:50",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30.0
+ },
+ "duration": 30.0,
+ "shader_mode": true,
+ "cuts": [
+  {
+   "clip": "c01",
+   "t": 0.0,
+   "planned": 0.0,
+   "anchor": null,
+   "kind": null
+  },
+  {
+   "clip": "c02",
+   "t": 4.7333,
+   "planned": 4.75,
+   "anchor": 4.75,
+   "kind": "word"
+  },
+  {
+   "clip": "c03",
+   "t": 6.4333,
+   "planned": 6.44,
+   "anchor": 6.44,
+   "kind": "word"
+  },
+  {
+   "clip": "c04",
+   "t": 8.2333,
+   "planned": 8.22,
+   "anchor": 8.22,
+   "kind": "word"
+  },
+  {
+   "clip": "c05",
+   "t": 9.4667,
+   "planned": 9.48,
+   "anchor": 9.48,
+   "kind": "word"
+  },
+  {
+   "clip": "c06",
+   "t": 10.9,
+   "planned": 10.9,
+   "anchor": 10.9,
+   "kind": "word"
+  },
+  {
+   "clip": "c07",
+   "t": 14.6,
+   "planned": 14.6,
+   "anchor": null,
+   "kind": null
+  },
+  {
+   "clip": "c08",
+   "t": 17.9,
+   "planned": 17.9,
+   "anchor": null,
+   "kind": null
+  }
+ ],
+ "clips": [
+  {
+   "id": "c01",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\148640613.jpg",
+   "at": 0.0,
+   "until": 4.7333,
+   "tl_start": 0.0,
+   "tl_end": 4.8833,
+   "src_in": 0.0,
+   "src_out": 4.8833,
+   "segments": [
+    {
+     "dur": 4.8833,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-marathi-promo\\assets\\photos\\c01_49be30d29a.jpg"
+  },
+  {
+   "id": "c02",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\189346226.jpg",
+   "at": 4.7333,
+   "until": 6.4333,
+   "tl_start": 4.5833,
+   "tl_end": 6.4333,
+   "src_in": 0.0,
+   "src_out": 1.85,
+   "segments": [
+    {
+     "dur": 1.85,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-marathi-promo\\assets\\photos\\c02_11cb069819.jpg"
+  },
+  {
+   "id": "c03",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\148640625.jpg",
+   "at": 6.4333,
+   "until": 8.2333,
+   "tl_start": 6.4333,
+   "tl_end": 8.2333,
+   "src_in": 0.0,
+   "src_out": 1.8,
+   "segments": [
+    {
+     "dur": 1.7999999999999998,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-marathi-promo\\assets\\photos\\c03_bed39b113e.jpg"
+  },
+  {
+   "id": "c04",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\82559492_up.png",
+   "at": 8.2333,
+   "until": 9.4667,
+   "tl_start": 8.2333,
+   "tl_end": 9.4667,
+   "src_in": 0.0,
+   "src_out": 1.2334,
+   "segments": [
+    {
+     "dur": 1.2333999999999996,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-marathi-promo\\assets\\photos\\c04_2c5d8ea769.jpg"
+  },
+  {
+   "id": "c05",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\92660782.jpg",
+   "at": 9.4667,
+   "until": 10.9,
+   "tl_start": 9.4667,
+   "tl_end": 11.35,
+   "src_in": 0.0,
+   "src_out": 1.8833,
+   "segments": [
+    {
+     "dur": 1.8833000000000009,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-marathi-promo\\assets\\photos\\c05_f50ef9495d.jpg"
+  },
+  {
+   "id": "c06",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\7350557.jpg",
+   "at": 10.9,
+   "until": 14.6,
+   "tl_start": 10.45,
+   "tl_end": 14.6,
+   "src_in": 0.0,
+   "src_out": 4.15,
+   "segments": [
+    {
+     "dur": 4.1499999999999995,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "light-leak",
+    "dur": 0.9
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-marathi-promo\\assets\\photos\\c06_c94c9fd570.jpg"
+  },
+  {
+   "id": "c07",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\176894523.jpg",
+   "at": 14.6,
+   "until": 17.9,
+   "tl_start": 14.6,
+   "tl_end": 18.15,
+   "src_in": 0.0,
+   "src_out": 3.55,
+   "segments": [
+    {
+     "dur": 3.549999999999999,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "fx": [
+    {
+     "type": "zoom_punch",
+     "at": 14.6,
+     "amount": 1.08,
+     "dur": 0.4
+    }
+   ],
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-marathi-promo\\assets\\photos\\c07_5e7353e4eb.jpg"
+  },
+  {
+   "id": "c08",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\148640613.jpg",
+   "at": 17.9,
+   "until": 30.0,
+   "tl_start": 17.65,
+   "tl_end": 30.0,
+   "src_in": 0.0,
+   "src_out": 12.35,
+   "segments": [
+    {
+     "dur": 12.350000000000001,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-marathi-promo\\assets\\photos\\c08_1b0eb0c7ca.jpg"
+  }
+ ],
+ "text": [
+  {
+   "content": "त्यांचा आवाज बना",
+   "at": 0.35,
+   "until": 4.5,
+   "style": "title",
+   "pos": "top"
+  }
+ ],
+ "endcard": {
+  "lines": [
+   "गोवा प्राणी मुक्ती मोर्चा",
+   "डिसेंबर २०२६ · दुपारी ४ वाजता",
+   "डॉ. बाबासाहेब आंबेडकर पार्क, पाटो ते आझाद मैदान",
+   "@goaalm"
+  ],
+  "at": 21.0,
+  "until": 30.0,
+  "lang": "mr"
+ },
+ "captions": {
+  "cues": [
+   {
+    "start": 0.61,
+    "end": 1.23,
+    "text": "ते बोलू"
+   },
+   {
+    "start": 1.23,
+    "end": 2.37,
+    "text": "शकत नाहीत,"
+   },
+   {
+    "start": 2.37,
+    "end": 3.29,
+    "text": "पण त्यांनाही"
+   },
+   {
+    "start": 3.29,
+    "end": 4.465,
+    "text": "वेदना होतात."
+   },
+   {
+    "start": 4.75,
+    "end": 6.435,
+    "text": "पिंजऱ्यातली कोंबडी,"
+   },
+   {
+    "start": 6.44,
+    "end": 8.22,
+    "text": "रस्त्यावरचा कुत्रा,"
+   },
+   {
+    "start": 8.22,
+    "end": 9.48,
+    "text": "प्रत्येक गाय,"
+   },
+   {
+    "start": 9.48,
+    "end": 10.575,
+    "text": "प्रत्येक बकरी."
+   },
+   {
+    "start": 10.9,
+    "end": 12.01,
+    "text": "प्रत्येक जीवाला"
+   },
+   {
+    "start": 12.01,
+    "end": 13.43,
+    "text": "मुक्तपणे जगण्याचा"
+   },
+   {
+    "start": 13.43,
+    "end": 14.225,
+    "text": "हक्क आहे."
+   },
+   {
+    "start": 14.93,
+    "end": 16.23,
+    "text": "चला, त्यांचा"
+   },
+   {
+    "start": 16.23,
+    "end": 17.325,
+    "text": "आवाज बनूया."
+   },
+   {
+    "start": 17.99,
+    "end": 18.89,
+    "text": "गोवा प्राणी"
+   },
+   {
+    "start": 18.89,
+    "end": 20.07,
+    "text": "मुक्ती मोर्चा."
+   },
+   {
+    "start": 20.07,
+    "end": 21.11,
+    "text": "डिसेंबर दोन"
+   },
+   {
+    "start": 21.11,
+    "end": 22.55,
+    "text": "हजार सव्वीस,"
+   },
+   {
+    "start": 22.55,
+    "end": 23.43,
+    "text": "दुपारी चार"
+   },
+   {
+    "start": 23.43,
+    "end": 24.805,
+    "text": "वाजता, पणजी."
+   },
+   {
+    "start": 25.63,
+    "end": 27.09,
+    "text": "मुक्ती सर्वांसाठी"
+   },
+   {
+    "start": 27.09,
+    "end": 27.545,
+    "text": "आहे."
+   }
+  ],
+  "words": [
+   {
+    "text": "ते",
+    "start": 0.61,
+    "end": 0.735,
+    "conf": 0.996
+   },
+   {
+    "text": "बोलू",
+    "start": 0.83,
+    "end": 1.175,
+    "conf": 0.974
+   },
+   {
+    "text": "शकत",
+    "start": 1.23,
+    "end": 1.535,
+    "conf": 0.732
+   },
+   {
+    "text": "नाहीत,",
+    "start": 1.61,
+    "end": 2.175,
+    "conf": 0.619
+   },
+   {
+    "text": "पण",
+    "start": 2.37,
+    "end": 2.595,
+    "conf": 0.435
+   },
+   {
+    "text": "त्यांनाही",
+    "start": 2.65,
+    "end": 3.235,
+    "conf": 0.919
+   },
+   {
+    "text": "वेदना",
+    "start": 3.29,
+    "end": 3.775,
+    "conf": 0.945
+   },
+   {
+    "text": "होतात.",
+    "start": 3.81,
+    "end": 4.215,
+    "conf": 0.93
+   },
+   {
+    "text": "पिंजऱ्यातली",
+    "start": 4.75,
+    "end": 5.385,
+    "conf": 0.291
+   },
+   {
+    "text": "कोंबडी,",
+    "start": 5.42,
+    "end": 6.185,
+    "conf": 0.989
+   },
+   {
+    "text": "रस्त्यावरचा",
+    "start": 6.44,
+    "end": 7.325,
+    "conf": 0.91
+   },
+   {
+    "text": "कुत्रा,",
+    "start": 7.38,
+    "end": 7.985,
+    "conf": 0.922
+   },
+   {
+    "text": "प्रत्येक",
+    "start": 8.22,
+    "end": 8.725,
+    "conf": 0.992
+   },
+   {
+    "text": "गाय,",
+    "start": 8.78,
+    "end": 9.245,
+    "conf": 0.905
+   },
+   {
+    "text": "प्रत्येक",
+    "start": 9.48,
+    "end": 9.925,
+    "conf": 0.999
+   },
+   {
+    "text": "बकरी.",
+    "start": 9.98,
+    "end": 10.325,
+    "conf": 0.891
+   },
+   {
+    "text": "प्रत्येक",
+    "start": 10.9,
+    "end": 11.375,
+    "conf": 0.763
+   },
+   {
+    "text": "जीवाला",
+    "start": 11.41,
+    "end": 11.955,
+    "conf": 0.933
+   },
+   {
+    "text": "मुक्तपणे",
+    "start": 12.01,
+    "end": 12.655,
+    "conf": 0.965
+   },
+   {
+    "text": "जगण्याचा",
+    "start": 12.73,
+    "end": 13.375,
+    "conf": 0.91
+   },
+   {
+    "text": "हक्क",
+    "start": 13.43,
+    "end": 13.755,
+    "conf": 0.978
+   },
+   {
+    "text": "आहे.",
+    "start": 13.81,
+    "end": 13.975,
+    "conf": 0.963
+   },
+   {
+    "text": "चला,",
+    "start": 14.93,
+    "end": 15.415,
+    "conf": 0.973
+   },
+   {
+    "text": "त्यांचा",
+    "start": 15.61,
+    "end": 16.135,
+    "conf": 0.983
+   },
+   {
+    "text": "आवाज",
+    "start": 16.23,
+    "end": 16.635,
+    "conf": 0.972
+   },
+   {
+    "text": "बनूया.",
+    "start": 16.69,
+    "end": 17.075,
+    "conf": 0.92
+   },
+   {
+    "text": "गोवा",
+    "start": 17.99,
+    "end": 18.375,
+    "conf": 0.987
+   },
+   {
+    "text": "प्राणी",
+    "start": 18.41,
+    "end": 18.835,
+    "conf": 0.94
+   },
+   {
+    "text": "मुक्ती",
+    "start": 18.89,
+    "end": 19.315,
+    "conf": 0.946
+   },
+   {
+    "text": "मोर्चा.",
+    "start": 19.37,
+    "end": 19.955,
+    "conf": 0.951
+   },
+   {
+    "text": "डिसेंबर",
+    "start": 20.07,
+    "end": 20.695,
+    "conf": 0.837
+   },
+   {
+    "text": "दोन",
+    "start": 20.75,
+    "end": 21.055,
+    "conf": 0.651
+   },
+   {
+    "text": "हजार",
+    "start": 21.11,
+    "end": 21.535,
+    "conf": 0.424
+   },
+   {
+    "text": "सव्वीस,",
+    "start": 21.61,
+    "end": 22.315,
+    "conf": 0.295
+   },
+   {
+    "text": "दुपारी",
+    "start": 22.55,
+    "end": 23.055,
+    "conf": 0.959
+   },
+   {
+    "text": "चार",
+    "start": 23.11,
+    "end": 23.375,
+    "conf": 0.973
+   },
+   {
+    "text": "वाजता,",
+    "start": 23.43,
+    "end": 24.035,
+    "conf": 0.947
+   },
+   {
+    "text": "पणजी.",
+    "start": 24.19,
+    "end": 24.555,
+    "conf": 0.927
+   },
+   {
+    "text": "मुक्ती",
+    "start": 25.63,
+    "end": 26.075,
+    "conf": 0.925
+   },
+   {
+    "text": "सर्वांसाठी",
+    "start": 26.15,
+    "end": 27.035,
+    "conf": 0.931
+   },
+   {
+    "text": "आहे.",
+    "start": 27.09,
+    "end": 27.295,
+    "conf": 0.982
+   }
+  ],
+  "engine": "vo"
+ },
+ "vo": [
+  {
+   "id": "l01",
+   "at": 0.6,
+   "duration": 3.755,
+   "text": "ते बोलू शकत नाहीत, पण त्यांनाही वेदना होतात.",
+   "lang": "mr",
+   "engine": "edge-tts"
+  },
+  {
+   "id": "l02",
+   "at": 4.75,
+   "duration": 5.72,
+   "text": "पिंजऱ्यातली कोंबडी, रस्त्यावरचा कुत्रा, प्रत्येक गाय, प्रत्येक बकरी.",
+   "lang": "mr",
+   "engine": "edge-tts"
+  },
+  {
+   "id": "l03",
+   "at": 10.9,
+   "duration": 3.29,
+   "text": "प्रत्येक जीवाला मुक्तपणे जगण्याचा हक्क आहे.",
+   "lang": "mr",
+   "engine": "edge-tts"
+  },
+  {
+   "id": "l04",
+   "at": 14.9,
+   "duration": 2.335,
+   "text": "चला, त्यांचा आवाज बनूया.",
+   "lang": "mr",
+   "engine": "edge-tts"
+  },
+  {
+   "id": "l05",
+   "at": 17.9,
+   "duration": 6.83,
+   "text": "गोवा प्राणी मुक्ती मोर्चा. डिसेंबर दोन हजार सव्वीस, दुपारी चार वाजता, पणजी.",
+   "lang": "mr",
+   "engine": "edge-tts"
+  },
+  {
+   "id": "l06",
+   "at": 25.6,
+   "duration": 1.885,
+   "text": "मुक्ती सर्वांसाठी आहे.",
+   "lang": "mr",
+   "engine": "edge-tts"
+  }
+ ],
+ "music": {
+  "src": "library/stock/openverse/e68fc3fc-675c-4ede-884c-a0be295bb35b.mp3",
+  "from": 6.92,
+  "at": 0.0,
+  "compress": true,
+  "fade_in": 0.8,
+  "fade_out": 2.0,
+  "path": "D:\\AI video editor\\hyperframes\\library\\stock\\openverse\\e68fc3fc-675c-4ede-884c-a0be295bb35b.mp3",
+  "until": 30.0
+ },
+ "sfx": [
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\reverse_swell.wav",
+   "at": 14.6,
+   "gain_db": -8.0,
+   "align": "end"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\boom.wav",
+   "at": 14.6,
+   "gain_db": -2.0,
+   "align": "onset"
+  }
+ ],
+ "loudness": {
+  "I": -14.1,
+  "LRA": 2.4,
+  "TP": -2.5
+ },
+ "safe_zone": {
+  "top": 220,
+  "bottom": 400,
+  "right": 120,
+  "left": 60
+ },
+ "fonts": [
+  "Montserrat",
+  "Mukta"
+ ],
+ "glyphs": [
+  {
+   "text": "त्यांचा आवाज बना",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "गोवा प्राणी मुक्ती मोर्चा",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "डिसेंबर २०२६ · दुपारी ४ वाजता",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-SemiBold.ttf"
+  },
+  {
+   "text": "डॉ. बाबासाहेब आंबेडकर पार्क, पाटो ते आझाद मैदान",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-SemiBold.ttf"
+  },
+  {
+   "text": "@goaalm",
+   "font": "Montserrat",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\montserrat\\Montserrat[wght].ttf"
+  },
+  {
+   "text": "ते बोलू",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "शकत नाहीत,",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "पण त्यांनाही",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "वेदना होतात.",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "पिंजऱ्यातली कोंबडी,",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "रस्त्यावरचा कुत्रा,",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "प्रत्येक गाय,",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "प्रत्येक बकरी.",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "प्रत्येक जीवाला",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "मुक्तपणे जगण्याचा",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "हक्क आहे.",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "चला, त्यांचा",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "आवाज बनूया.",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "गोवा प्राणी",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "मुक्ती मोर्चा.",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "डिसेंबर दोन",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "हजार सव्वीस,",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "दुपारी चार",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "वाजता, पणजी.",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "मुक्ती सर्वांसाठी",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  },
+  {
+   "text": "आहे.",
+   "font": "Mukta",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\mukta\\Mukta-ExtraBold.ttf"
+  }
+ ],
+ "models": [
+  "edge-tts",
+  "mms",
+  "realesrgan"
+ ],
+ "assets": [
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\148640613.jpg"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\189346226.jpg"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\148640625.jpg"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\82559492_up.png"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\92660782.jpg"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\7350557.jpg"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\176894523.jpg"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\148640613.jpg"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\openverse\\e68fc3fc-675c-4ede-884c-a0be295bb35b.mp3"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\reverse_swell.wav"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\boom.wav"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\luts\\bw_contrast.cube"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\luts\\warm_film.cube"
+  }
+ ],
+ "unconfirmed_facts": [
+  "exact December date (day)",
+  "handle @goaalm",
+  "logo file (none yet)",
+  "Marathi/Hindi names above",
+  "Marathi/Hindi end-card wording (end_card_mr / end_card_hi)"
+ ],
+ "warnings": [
+  "end card uses brand facts still to confirm: exact December date (day); handle @goaalm; logo file (none yet); Marathi/Hindi names above; Marathi/Hindi end-card wording (end_card_mr / end_card_hi)"
+ ],
+ "brand": "goaalm",
+ "caption_post": "ते बोलू शकत नाहीत, पण त्यांनाही वेदना होतात. त्यांचा आवाज बना. 🐾\nGoa Animal Liberation March, December 2026, 4 PM, Panaji.",
+ "hashtags": [
+  "#GoaALM",
+  "#AnimalLiberation",
+  "#Goa",
+  "#Panaji",
+  "#मराठी"
+ ],
+ "build_seconds": 5.4
+}

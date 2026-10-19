@@ -1,0 +1,92 @@
+# Environments
+.venv/
+node_modules/
+.env
+
+# Large / generated / user data
+cache/*
+inbox/*
+analysis/*
+perception/*
+exports/*
+projects/*/renders/
+bin/*
+_trash/
+_previews/
+!*/.gitkeep
+!bin/README.md
+
+# Python
+__pycache__/
+*.pyc
+
+# Font binaries are re-fetchable (tools/fetch_fonts.py); index.json is tracked
+library/fonts/*/
+
+# HyperFrames per-project state and throwaway test projects
+projects/*/.hyperframes/
+projects/_test-*/
+
+# Generated test media (tools/make_fixtures.py)
+tests/fixtures/*.wav
+tests/fixtures/*.mp3
+tests/fixtures/*.mp4
+
+# Media binaries in the library are re-fetchable / user-owned; indexes are tracked
+library/**/*.mp3
+library/**/*.wav
+library/**/*.flac
+library/**/*.m4a
+library/**/*.ogg
+library/**/*.mp4
+
+# Downloaded / generated test footage and photos (licence + truth JSON are tracked)
+tests/fixtures/footage/*.mp4
+tests/fixtures/footage/*.webm
+tests/fixtures/footage/_dl/
+tests/fixtures/photos/*.jpg
+
+# Raw downloads before vetting/extraction
+_dl/
+
+# Generated fx test media
+tests/fixtures/fx/
+
+# Phase 5 test fixture (built from tos excerpt + Go Cart + speech fixture)
+tests/fixtures/perception/*.mp4
+
+# Downloaded stock media (licence sidecars stay tracked)
+library/stock/**/*.jpg
+library/stock/**/*.jpeg
+library/stock/**/*.png
+library/stock/**/*.webp
+library/stock/**/*.webm
+
+library/vendor/_dl/
+
+# Rebuildable build outputs inside projects (tools/build.py regenerates them)
+projects/*/assets/clips/
+projects/*/assets/photos/
+projects/*/assets/audio/
+projects/*/assets/vo/*.wav
+projects/*/assets/vendor/
+projects/*/assets/fonts/
+projects/*/variants/
+projects/*/review/sheet.jpg
+projects/*/media/
+projects/*/renders/
+projects/*/audiomap.json
+library/stock/**/*.mp4
+
+# This computer's own paths (written by tools/setup.py) and any secrets
+config/studio.local.toml
+.env.*
+!.env.example
+*.pem
+*.key
+token
+**/huggingface/token
+
+# CC-licensed music the library index points to IS shared (licence + credit in index.json)
+!library/music/incompetech/*.mp3
+!library/stock/openverse/*.mp3

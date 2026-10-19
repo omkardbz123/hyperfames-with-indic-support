@@ -1,0 +1,168 @@
+{
+ "render": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\renders\\master.mp4",
+ "reviewed_at": "2026-10-19T17:18:41",
+ "ok": true,
+ "checks": [
+  {
+   "name": "technical",
+   "status": "pass",
+   "detail": "1080x1920 30 fps h264 yuv420p, 18.00s, 10.1 Mb/s, audio yes",
+   "fix": "rebuild/re-render; check the EDL format and duration"
+  },
+  {
+   "name": "loudness",
+   "status": "pass",
+   "detail": "-14.0 LUFS, TP -2.9 dBTP, LRA 3.3",
+   "fix": "re-run tools/build.py (the mix is mastered to -14 LUFS / -2 dBTP); don't change mix.wav by hand"
+  },
+  {
+   "name": "black",
+   "status": "pass",
+   "detail": "no black frames",
+   "fix": "a clip is missing or ends early: check data-start/duration in index.html and the prepped clip lengths"
+  },
+  {
+   "name": "freeze",
+   "status": "pass",
+   "detail": "no frozen picture",
+   "fix": "the source range ran past the end of the footage, or a prep step failed: check src_in/src_out"
+  },
+  {
+   "name": "cut_sync",
+   "status": "pass",
+   "detail": "9/9 snapped cuts within ±1 frame (worst 0.4 f)",
+   "fix": "the render's cut moved away from its beat: rebuild from edl.json (don't hand-edit index.html)"
+  },
+  {
+   "name": "captions",
+   "status": "info",
+   "detail": "no captions in this build",
+   "fix": ""
+  },
+  {
+   "name": "safe_zone",
+   "status": "pass",
+   "detail": "3 text block(s) inside the safe zone (top 220, bottom 400, left 60, right 120 px)",
+   "fix": "shorten the text, use a smaller size, or move it (pos) in edl.json"
+  },
+  {
+   "name": "glyphs",
+   "status": "pass",
+   "detail": "3 text(s) checked: every character exists in its font",
+   "fix": "use a font that covers the script (Devanagari: Mukta, Hind, Noto Sans Devanagari, Baloo 2)"
+  },
+  {
+   "name": "facts",
+   "status": "pass",
+   "detail": "no unconfirmed brand facts",
+   "fix": "confirm with the user, update library/brands/<brand>/brand.json (to_confirm)"
+  },
+  {
+   "name": "licences",
+   "status": "pass",
+   "detail": "18 asset(s), all licensed",
+   "fix": "ask the user (own footage -> tools/ingest.py --own), or add <file>.license.json"
+  },
+  {
+   "name": "hyperframes",
+   "status": "pass",
+   "detail": "lint, runtime, layout and contrast clean",
+   "fix": "see `uv run tools/hf.py check` in the project for details"
+  }
+ ],
+ "cuts": [
+  {
+   "clip": "c03",
+   "t": 5.0667,
+   "planned": 5.07,
+   "anchor": 5.069000000000003,
+   "kind": "downbeat",
+   "detected": 5.0667,
+   "error_frames": -0.07,
+   "strength": 25.9
+  },
+  {
+   "clip": "c04",
+   "t": 7.1333,
+   "planned": 7.14,
+   "anchor": 7.140000000000001,
+   "kind": "downbeat",
+   "detected": 7.1333,
+   "error_frames": -0.2,
+   "strength": 19.9
+  },
+  {
+   "clip": "c05",
+   "t": 8.2,
+   "planned": 8.2,
+   "anchor": 8.195999999999998,
+   "kind": "drop",
+   "detected": 8.2,
+   "error_frames": 0.12,
+   "strength": 18.4
+  },
+  {
+   "clip": "c06",
+   "t": 9.2333,
+   "planned": 9.24,
+   "anchor": 9.239999999999995,
+   "kind": "downbeat",
+   "detected": 9.2333,
+   "error_frames": -0.2,
+   "strength": 11.5
+  },
+  {
+   "clip": "c07",
+   "t": 10.2667,
+   "planned": 10.28,
+   "anchor": 10.280000000000001,
+   "kind": "beat",
+   "detected": 10.2667,
+   "error_frames": -0.4,
+   "strength": 8.5
+  },
+  {
+   "clip": "c08",
+   "t": 11.3333,
+   "planned": 11.34,
+   "anchor": 11.340000000000003,
+   "kind": "downbeat",
+   "detected": 11.3333,
+   "error_frames": -0.2,
+   "strength": 15.7
+  },
+  {
+   "clip": "c09",
+   "t": 12.3667,
+   "planned": 12.38,
+   "anchor": 12.379999999999995,
+   "kind": "beat",
+   "detected": 12.3667,
+   "error_frames": -0.4,
+   "strength": 18.5
+  },
+  {
+   "clip": "c10",
+   "t": 13.4333,
+   "planned": 13.44,
+   "anchor": 13.444000000000003,
+   "kind": "downbeat",
+   "detected": 13.4333,
+   "error_frames": -0.32,
+   "strength": 11.8
+  },
+  {
+   "clip": "c12",
+   "t": 15.5333,
+   "planned": 15.52,
+   "anchor": 15.519999999999996,
+   "kind": "downbeat",
+   "detected": 15.5333,
+   "error_frames": 0.4,
+   "strength": 51.6
+  }
+ ],
+ "gemini": null,
+ "sheet": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\review\\sheet.jpg",
+ "fixes": []
+}

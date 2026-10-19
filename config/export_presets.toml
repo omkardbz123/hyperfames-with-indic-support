@@ -1,0 +1,68 @@
+# Export presets (BUILD_PLAN §12). tools/export.py reads these.
+
+[reels]
+width = 1080
+height = 1920
+fps = 30
+vcodec = "libx264"
+profile = "high"
+pix_fmt = "yuv420p"
+crf = 19
+maxrate = "10M"
+bufsize = "20M"
+acodec = "aac"
+abitrate = "192k"
+ar = 48000
+faststart = true
+loudness_lufs = -14.0
+
+[shorts]
+inherit = "reels"
+
+[feed45]
+inherit = "reels"
+width = 1080
+height = 1350
+
+[square]
+inherit = "reels"
+width = 1080
+height = 1080
+
+[youtube]
+width = 1920
+height = 1080
+fps = 30
+vcodec = "libx264"
+profile = "high"
+pix_fmt = "yuv420p"
+crf = 18
+acodec = "aac"
+abitrate = "320k"
+ar = 48000
+faststart = true
+loudness_lufs = -14.0
+
+[whatsapp]
+width = 720
+height = 1280
+fps = 30
+vcodec = "libx264"
+profile = "high"
+pix_fmt = "yuv420p"
+crf = 23
+maxrate = "3M"
+bufsize = "6M"
+acodec = "aac"
+abitrate = "128k"
+ar = 48000
+faststart = true
+loudness_lufs = -14.0
+
+[master]
+vcodec = "prores_ks"
+profile = "3"           # ProRes 422 HQ
+pix_fmt = "yuv422p10le"
+acodec = "pcm_s24le"
+ar = 48000
+container = "mov"

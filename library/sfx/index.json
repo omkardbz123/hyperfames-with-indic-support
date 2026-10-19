@@ -1,0 +1,265 @@
+[
+ {
+  "name": "boom",
+  "file": "library/sfx/synth/boom.wav",
+  "duration": 5.2,
+  "align": "onset",
+  "tags": [
+   "cinematic",
+   "sub",
+   "boom",
+   "impact",
+   "trailer",
+   "drop"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "braam",
+  "file": "library/sfx/synth/braam.wav",
+  "duration": 3.0,
+  "align": "onset",
+  "tags": [
+   "braam",
+   "trailer",
+   "horn",
+   "brass",
+   "inception",
+   "dramatic"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "ding",
+  "file": "library/sfx/synth/ding.wav",
+  "duration": 1.4,
+  "align": "onset",
+  "tags": [
+   "ding",
+   "bell",
+   "notification",
+   "chime"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "drop_808",
+  "file": "library/sfx/synth/drop_808.wav",
+  "duration": 1.6,
+  "align": "onset",
+  "tags": [
+   "808",
+   "bass",
+   "drop",
+   "phonk",
+   "sub"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "epic_hit",
+  "file": "library/sfx/synth/epic_hit.wav",
+  "duration": 3.2,
+  "align": "onset",
+  "tags": [
+   "epic",
+   "trailer",
+   "hit",
+   "drop",
+   "brass",
+   "crash",
+   "impact",
+   "cinematic",
+   "big"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "flash_pop",
+  "file": "library/sfx/synth/flash_pop.wav",
+  "duration": 0.5,
+  "align": "onset",
+  "tags": [
+   "flash",
+   "pop",
+   "camera",
+   "snap",
+   "white",
+   "flash"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "glitch",
+  "file": "library/sfx/synth/glitch.wav",
+  "duration": 0.6,
+  "align": "onset",
+  "tags": [
+   "glitch",
+   "digital",
+   "stutter",
+   "error"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "hit",
+  "file": "library/sfx/synth/hit.wav",
+  "duration": 0.45,
+  "align": "onset",
+  "tags": [
+   "hit",
+   "kick",
+   "punch",
+   "beat",
+   "accent"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "impact",
+  "file": "library/sfx/synth/impact.wav",
+  "duration": 1.2,
+  "align": "onset",
+  "tags": [
+   "impact",
+   "hit",
+   "slam",
+   "cinematic",
+   "punch"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "reverse_swell",
+  "file": "library/sfx/synth/reverse_swell.wav",
+  "duration": 1.2,
+  "align": "end",
+  "tags": [
+   "reverse",
+   "swell",
+   "suck",
+   "in",
+   "transition",
+   "build"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "riser",
+  "file": "library/sfx/synth/riser.wav",
+  "duration": 2.0,
+  "align": "end",
+  "tags": [
+   "riser",
+   "build",
+   "tension",
+   "sweep",
+   "up",
+   "transition"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "swish",
+  "file": "library/sfx/synth/swish.wav",
+  "duration": 0.35,
+  "align": "onset",
+  "tags": [
+   "swish",
+   "short",
+   "whoosh",
+   "fast",
+   "cut",
+   "whip"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "tape_stop",
+  "file": "library/sfx/synth/tape_stop.wav",
+  "duration": 1.0,
+  "align": "onset",
+  "tags": [
+   "tape",
+   "stop",
+   "slow",
+   "down",
+   "record",
+   "scratch",
+   "end"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "thud",
+  "file": "library/sfx/synth/thud.wav",
+  "duration": 3.6,
+  "align": "onset",
+  "tags": [
+   "low",
+   "thud",
+   "hit",
+   "punch"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "tick",
+  "file": "library/sfx/synth/tick.wav",
+  "duration": 0.06,
+  "align": "onset",
+  "tags": [
+   "tick",
+   "click",
+   "ui",
+   "pop"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ },
+ {
+  "name": "whoosh",
+  "file": "library/sfx/synth/whoosh.wav",
+  "duration": 0.9,
+  "align": "onset",
+  "tags": [
+   "whoosh",
+   "swoosh",
+   "transition",
+   "air"
+  ],
+  "source": "synth",
+  "license": "own work (ai-video-studio)",
+  "credit": null
+ }
+]

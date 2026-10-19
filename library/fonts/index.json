@@ -1,0 +1,206 @@
+[
+  {
+    "dir": "anton",
+    "family": "Anton",
+    "files": [
+      "Anton-Regular.ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/anton",
+    "devanagari": false
+  },
+  {
+    "dir": "baloo2",
+    "family": "Baloo 2",
+    "files": [
+      "Baloo2[wght].ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/baloo2",
+    "devanagari": true
+  },
+  {
+    "dir": "bebasneue",
+    "family": "Bebas Neue",
+    "files": [
+      "BebasNeue-Regular.ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/bebasneue",
+    "devanagari": false
+  },
+  {
+    "dir": "hind",
+    "family": "Hind",
+    "files": [
+      "Hind-Bold.ttf",
+      "Hind-Light.ttf",
+      "Hind-Medium.ttf",
+      "Hind-Regular.ttf",
+      "Hind-SemiBold.ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/hind",
+    "devanagari": true
+  },
+  {
+    "dir": "inter",
+    "family": "Inter",
+    "files": [
+      "Inter-Italic[opsz,wght].ttf",
+      "Inter[opsz,wght].ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/inter",
+    "devanagari": false
+  },
+  {
+    "dir": "kalam",
+    "family": "Kalam",
+    "files": [
+      "Kalam-Bold.ttf",
+      "Kalam-Light.ttf",
+      "Kalam-Regular.ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/kalam",
+    "devanagari": true
+  },
+  {
+    "dir": "montserrat",
+    "family": "Montserrat",
+    "files": [
+      "Montserrat-Italic[wght].ttf",
+      "Montserrat[wght].ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/montserrat",
+    "devanagari": false
+  },
+  {
+    "dir": "mukta",
+    "family": "Mukta",
+    "files": [
+      "Mukta-Bold.ttf",
+      "Mukta-ExtraBold.ttf",
+      "Mukta-ExtraLight.ttf",
+      "Mukta-Light.ttf",
+      "Mukta-Medium.ttf",
+      "Mukta-Regular.ttf",
+      "Mukta-SemiBold.ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/mukta",
+    "devanagari": true
+  },
+  {
+    "dir": "notosansdevanagari",
+    "family": "Noto Sans Devanagari",
+    "files": [
+      "NotoSansDevanagari[wdth,wght].ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/notosansdevanagari",
+    "devanagari": true
+  },
+  {
+    "dir": "notoserifdevanagari",
+    "family": "Noto Serif Devanagari",
+    "files": [
+      "NotoSerifDevanagari[wdth,wght].ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/notoserifdevanagari",
+    "devanagari": true
+  },
+  {
+    "dir": "oswald",
+    "family": "Oswald",
+    "files": [
+      "Oswald[wght].ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/oswald",
+    "devanagari": false
+  },
+  {
+    "dir": "playfairdisplay",
+    "family": "Playfair Display",
+    "files": [
+      "PlayfairDisplay-Italic[wght].ttf",
+      "PlayfairDisplay[wght].ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/playfairdisplay",
+    "devanagari": false
+  },
+  {
+    "dir": "poppins",
+    "family": "Poppins",
+    "files": [
+      "Poppins-Black.ttf",
+      "Poppins-BlackItalic.ttf",
+      "Poppins-Bold.ttf",
+      "Poppins-BoldItalic.ttf",
+      "Poppins-ExtraBold.ttf",
+      "Poppins-ExtraBoldItalic.ttf",
+      "Poppins-ExtraLight.ttf",
+      "Poppins-ExtraLightItalic.ttf",
+      "Poppins-Italic.ttf",
+      "Poppins-Light.ttf",
+      "Poppins-LightItalic.ttf",
+      "Poppins-Medium.ttf",
+      "Poppins-MediumItalic.ttf",
+      "Poppins-Regular.ttf",
+      "Poppins-SemiBold.ttf",
+      "Poppins-SemiBoldItalic.ttf",
+      "Poppins-Thin.ttf",
+      "Poppins-ThinItalic.ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/poppins",
+    "devanagari": false
+  },
+  {
+    "dir": "rozhaone",
+    "family": "Rozha One",
+    "files": [
+      "RozhaOne-Regular.ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/rozhaone",
+    "devanagari": true
+  },
+  {
+    "dir": "tirodevanagarihindi",
+    "family": "Tiro Devanagari Hindi",
+    "files": [
+      "TiroDevanagariHindi-Italic.ttf",
+      "TiroDevanagariHindi-Regular.ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/tirodevanagarihindi",
+    "devanagari": true
+  },
+  {
+    "dir": "tirodevanagarimarathi",
+    "family": "Tiro Devanagari Marathi",
+    "files": [
+      "TiroDevanagariMarathi-Italic.ttf",
+      "TiroDevanagariMarathi-Regular.ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/tirodevanagarimarathi",
+    "devanagari": true
+  },
+  {
+    "dir": "yatraone",
+    "family": "Yatra One",
+    "files": [
+      "YatraOne-Regular.ttf"
+    ],
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/yatraone",
+    "devanagari": true
+  }
+]

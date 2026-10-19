@@ -1,0 +1,42 @@
+[project]
+name = "ai-video-studio"
+version = "0.1.0"
+description = "Free, general-purpose AI video-editing studio (analysis + processing tools)"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "numpy",
+  "scipy",
+  "pillow",
+  "soundfile",
+  "librosa",
+  "tqdm",
+  "pydantic",
+  "rich",
+  "tomli-w",
+  "torch>=2.14.1",
+  "beat-this>=1.1.0",
+  "einops>=0.8.2",
+  "soxr>=1.1.0",
+  "rotary-embedding-torch>=0.6.5",
+  "transformers>=5.20.1",
+  "audio-separator[cpu]>=0.47.0",
+  "edge-tts>=7.3.1",
+  "matplotlib>=3.11.2",
+  "ctc-forced-aligner",
+  "mediapipe>=1.1.1",
+  "imagehash>=4.3.2",
+  "scenedetect>=0.7.2",
+  "opencv-contrib-python>=5.0.0.93",
+  "auto-editor>=29.3.1",
+  "sentencepiece>=0.2.2",
+  "openvino>=2026.4.1",
+  "nncf>=3.4.0",
+  "num2words>=0.5.14",
+  "kokoro-onnx>=0.6.1",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+ctc-forced-aligner = { git = "https://github.com/MahmoudAshraf97/ctc-forced-aligner.git" }

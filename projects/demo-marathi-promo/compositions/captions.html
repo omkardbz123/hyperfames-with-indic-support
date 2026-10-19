@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+      @font-face { font-family: "Mukta"; src: url("assets/fonts/Mukta-ExtraBold.ttf") format("truetype"); font-weight: 800; }
+      #root { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+      #captions-stage { position: absolute; left: 90px; width: 870px; bottom: 559px; height: 312px;
+        display: flex; align-items: center; justify-content: center; }
+      .captions-cue { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+        flex-wrap: wrap; align-content: center; gap: 12px 35px; opacity: 0;
+        max-width: 870px; text-align: center; }
+      .captions-w { display: inline-block; font-family: "Mukta", sans-serif; font-weight: 800; font-size: 104px;
+        line-height: 1.25; color: #F4F0E8; white-space: nowrap;
+        text-shadow: 0 4px 18px rgba(0,0,0,.55); -webkit-text-stroke: 2px rgba(0,0,0,.35);
+        paint-order: stroke fill; }
+      </style>
+      <div id="root" data-composition-id="captions" data-width="1080" data-height="1920" data-duration="30.0">
+        <div id="captions-stage"></div>
+      </div>
+      <script>
+      var W = [{"t": "ते", "s": 0.61, "e": 0.735}, {"t": "बोलू", "s": 0.83, "e": 1.175}, {"t": "शकत", "s": 1.23, "e": 1.535}, {"t": "नाहीत,", "s": 1.61, "e": 2.175}, {"t": "पण", "s": 2.37, "e": 2.595}, {"t": "त्यांनाही", "s": 2.65, "e": 3.235}, {"t": "वेदना", "s": 3.29, "e": 3.775}, {"t": "होतात.", "s": 3.81, "e": 4.215}, {"t": "पिंजऱ्यातली", "s": 4.75, "e": 5.385}, {"t": "कोंबडी,", "s": 5.42, "e": 6.185}, {"t": "रस्त्यावरचा", "s": 6.44, "e": 7.325}, {"t": "कुत्रा,", "s": 7.38, "e": 7.985}, {"t": "प्रत्येक", "s": 8.22, "e": 8.725}, {"t": "गाय,", "s": 8.78, "e": 9.245}, {"t": "प्रत्येक", "s": 9.48, "e": 9.925}, {"t": "बकरी.", "s": 9.98, "e": 10.325}, {"t": "प्रत्येक", "s": 10.9, "e": 11.375}, {"t": "जीवाला", "s": 11.41, "e": 11.955}, {"t": "मुक्तपणे", "s": 12.01, "e": 12.655}, {"t": "जगण्याचा", "s": 12.73, "e": 13.375}, {"t": "हक्क", "s": 13.43, "e": 13.755}, {"t": "आहे.", "s": 13.81, "e": 13.975}, {"t": "चला,", "s": 14.93, "e": 15.415}, {"t": "त्यांचा", "s": 15.61, "e": 16.135}, {"t": "आवाज", "s": 16.23, "e": 16.635}, {"t": "बनूया.", "s": 16.69, "e": 17.075}, {"t": "गोवा", "s": 17.99, "e": 18.375}, {"t": "प्राणी", "s": 18.41, "e": 18.835}, {"t": "मुक्ती", "s": 18.89, "e": 19.315}, {"t": "मोर्चा.", "s": 19.37, "e": 19.955}, {"t": "डिसेंबर", "s": 20.07, "e": 20.695}, {"t": "दोन", "s": 20.75, "e": 21.055}, {"t": "हजार", "s": 21.11, "e": 21.535}, {"t": "सव्वीस,", "s": 21.61, "e": 22.315}, {"t": "दुपारी", "s": 22.55, "e": 23.055}, {"t": "चार", "s": 23.11, "e": 23.375}, {"t": "वाजता,", "s": 23.43, "e": 24.035}, {"t": "पणजी.", "s": 24.19, "e": 24.555}, {"t": "मुक्ती", "s": 25.63, "e": 26.075}, {"t": "सर्वांसाठी", "s": 26.15, "e": 27.035}, {"t": "आहे.", "s": 27.09, "e": 27.295}];
+      var C = [{"s": 0.61, "e": 1.23, "w": [0, 1]}, {"s": 1.23, "e": 2.37, "w": [2, 3]}, {"s": 2.37, "e": 3.29, "w": [4, 5]}, {"s": 3.29, "e": 4.465, "w": [6, 7]}, {"s": 4.75, "e": 6.435, "w": [8, 9]}, {"s": 6.44, "e": 8.22, "w": [10, 11]}, {"s": 8.22, "e": 9.48, "w": [12, 13]}, {"s": 9.48, "e": 10.575, "w": [14, 15]}, {"s": 10.9, "e": 12.01, "w": [16, 17]}, {"s": 12.01, "e": 13.43, "w": [18, 19]}, {"s": 13.43, "e": 14.225, "w": [20, 21]}, {"s": 14.93, "e": 16.23, "w": [22, 23]}, {"s": 16.23, "e": 17.325, "w": [24, 25]}, {"s": 17.99, "e": 18.89, "w": [26, 27]}, {"s": 18.89, "e": 20.07, "w": [28, 29]}, {"s": 20.07, "e": 21.11, "w": [30, 31]}, {"s": 21.11, "e": 22.55, "w": [32, 33]}, {"s": 22.55, "e": 23.43, "w": [34, 35]}, {"s": 23.43, "e": 24.805, "w": [36, 37]}, {"s": 25.63, "e": 27.09, "w": [38, 39]}, {"s": 27.09, "e": 27.545, "w": [40]}];
+      var STYLE = "kinetic", FG = "#F4F0E8", ACC = "#FFB830", INK = "#0C0C0E";
+      var stage = document.getElementById("captions-stage");
+      C.forEach(function (c, ci) {
+        var g = document.createElement("div"); g.id = "captions-c" + ci; g.className = "captions-cue";
+        c.w.forEach(function (wi) {
+          var s = document.createElement("span"); s.id = "captions-w" + wi; s.className = "captions-w";
+          s.innerHTML = W[wi].t; g.appendChild(s);
+        });
+        stage.appendChild(g);
+      });
+      var tl = gsap.timeline({ paused: true });
+      C.forEach(function (c, ci) {
+        var g = "#captions-c" + ci;
+        tl.set(g, { opacity: 1 }, c.s);
+        tl.set(g, { opacity: 0 }, c.e);
+        c.w.forEach(function (wi, k) {
+          var el = "#captions-w" + wi, t = W[wi].s;
+          if (STYLE === "kinetic") {
+            tl.set(el, { opacity: 0, scale: 1.35, color: FG }, c.s);
+            tl.to(el, { opacity: 1, scale: 1, duration: 0.12, ease: "power3.out" }, t);
+            tl.set(el, { color: ACC }, t);
+            var nxt = k + 1 < c.w.length ? W[c.w[k + 1]].s : c.e;
+            tl.set(el, { color: FG }, nxt);
+          } else if (STYLE === "pill") {
+            tl.set(el, { color: "#A6A6A6" }, c.s);
+            tl.to(el, { color: INK, duration: 0.06, ease: "none" }, t);
+          } else {
+            tl.set(el, { color: FG, scale: 1 }, c.s);
+            tl.to(el, { color: ACC, scale: 1.08, duration: 0.08, ease: "power2.out" }, t);
+            var nx = k + 1 < c.w.length ? W[c.w[k + 1]].s : c.e;
+            tl.to(el, { color: FG, scale: 1, duration: 0.08, ease: "power2.in" }, Math.max(t + 0.08, nx - 0.02));
+          }
+        });
+      });
+      window.__timelines["captions"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

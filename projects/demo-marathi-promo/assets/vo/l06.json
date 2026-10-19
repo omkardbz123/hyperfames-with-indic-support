@@ -1,0 +1,32 @@
+{
+ "id": "l06",
+ "key": "f8f11761d9fc",
+ "text": "मुक्ती सर्वांसाठी आहे.",
+ "lang": "mr",
+ "voice": "mr-IN-AarohiNeural",
+ "rate": "-4%",
+ "pitch": "+0Hz",
+ "duration": 1.885,
+ "words": [
+  {
+   "text": "मुक्ती",
+   "start": 0.03,
+   "end": 0.475,
+   "conf": 0.925
+  },
+  {
+   "text": "सर्वांसाठी",
+   "start": 0.55,
+   "end": 1.435,
+   "conf": 0.931
+  },
+  {
+   "text": "आहे.",
+   "start": 1.49,
+   "end": 1.695,
+   "conf": 0.982
+  }
+ ],
+ "engine": "edge-tts",
+ "timing": "mms-align on the generated audio"
+}

@@ -1,0 +1,110 @@
+{
+ "render": "D:\\AI video editor\\hyperframes\\projects\\demo-marathi-promo\\renders\\master.mp4",
+ "reviewed_at": "2026-10-19T17:19:18",
+ "ok": true,
+ "checks": [
+  {
+   "name": "technical",
+   "status": "pass",
+   "detail": "1080x1920 30 fps h264 yuv420p, 30.00s, 19.5 Mb/s, audio yes",
+   "fix": "rebuild/re-render; check the EDL format and duration"
+  },
+  {
+   "name": "loudness",
+   "status": "pass",
+   "detail": "-14.1 LUFS, TP -2.4 dBTP, LRA 2.4",
+   "fix": "re-run tools/build.py (the mix is mastered to -14 LUFS / -2 dBTP); don't change mix.wav by hand"
+  },
+  {
+   "name": "black",
+   "status": "pass",
+   "detail": "1 dark stretch(es), all intended",
+   "fix": "a clip is missing or ends early: check data-start/duration in index.html and the prepped clip lengths"
+  },
+  {
+   "name": "freeze",
+   "status": "pass",
+   "detail": "1 still stretch(es), none inside video clips",
+   "fix": "the source range ran past the end of the footage, or a prep step failed: check src_in/src_out"
+  },
+  {
+   "name": "cut_sync",
+   "status": "pass",
+   "detail": "3/3 snapped cuts within ±1 frame (worst 0.4 f)",
+   "fix": "the render's cut moved away from its beat: rebuild from edl.json (don't hand-edit index.html)"
+  },
+  {
+   "name": "captions",
+   "status": "pass",
+   "detail": "21 pages, no overlaps, words match the aligner",
+   "fix": "rebuild captions from the transcript (tools/build.py / caption_comp.py); pages come from tools/captions.py"
+  },
+  {
+   "name": "safe_zone",
+   "status": "pass",
+   "detail": "2 text block(s) inside the safe zone (top 220, bottom 400, left 60, right 120 px)",
+   "fix": "shorten the text, use a smaller size, or move it (pos) in edl.json"
+  },
+  {
+   "name": "glyphs",
+   "status": "pass",
+   "detail": "26 text(s) checked: every character exists in its font",
+   "fix": "use a font that covers the script (Devanagari: Mukta, Hind, Noto Sans Devanagari, Baloo 2)"
+  },
+  {
+   "name": "facts",
+   "status": "warn",
+   "detail": "to confirm with the user: exact December date (day); handle @goaalm; logo file (none yet); Marathi/Hindi names above; Marathi/Hindi end-card wording (end_card_mr / end_card_hi)",
+   "fix": "confirm with the user, update library/brands/<brand>/brand.json (to_confirm)"
+  },
+  {
+   "name": "licences",
+   "status": "pass",
+   "detail": "13 asset(s), all licensed",
+   "fix": "ask the user (own footage -> tools/ingest.py --own), or add <file>.license.json"
+  },
+  {
+   "name": "hyperframes",
+   "status": "pass",
+   "detail": "lint, runtime, layout and contrast clean",
+   "fix": "see `uv run tools/hf.py check` in the project for details"
+  }
+ ],
+ "cuts": [
+  {
+   "clip": "c03",
+   "t": 6.4333,
+   "planned": 6.44,
+   "anchor": 6.44,
+   "kind": "word",
+   "detected": 6.4333,
+   "error_frames": -0.2,
+   "strength": 40.6
+  },
+  {
+   "clip": "c04",
+   "t": 8.2333,
+   "planned": 8.22,
+   "anchor": 8.22,
+   "kind": "word",
+   "detected": 8.2333,
+   "error_frames": 0.4,
+   "strength": 38.9
+  },
+  {
+   "clip": "c05",
+   "t": 9.4667,
+   "planned": 9.48,
+   "anchor": 9.48,
+   "kind": "word",
+   "detected": 9.4667,
+   "error_frames": -0.4,
+   "strength": 40.1
+  }
+ ],
+ "gemini": null,
+ "sheet": "D:\\AI video editor\\hyperframes\\projects\\demo-marathi-promo\\review\\sheet.jpg",
+ "fixes": [
+  "facts: confirm with the user, update library/brands/<brand>/brand.json (to_confirm)"
+ ]
+}

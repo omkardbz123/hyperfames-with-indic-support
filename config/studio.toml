@@ -1,0 +1,68 @@
+# Studio configuration (shared). Tools read it via tools/studio_config.py, merged with
+# config/studio.local.toml: this computer's own paths (git-ignored, written by tools/setup.py).
+
+[paths]
+# Relative paths are inside this folder. "auto" = detect on this computer:
+#   ffmpeg/ffprobe: the Gyan FULL build (winget Gyan.FFmpeg) before anything on PATH, because
+#   "essentials" builds lack vidstab / lut3d / minterpolate. Never rely on PATH order.
+#   chrome: the usual Google Chrome install folders.
+ffmpeg = "auto"
+ffprobe = "auto"
+chrome = "auto"
+bin = "bin"
+cache = "cache"
+hf_home = "cache/huggingface"
+torch_home = "cache/torch"
+fonts = "library/fonts"
+
+[defaults]
+fps = 30
+aspect = "9:16"
+width = 1080
+height = 1920
+loudness_lufs = -14.0
+true_peak_db = -1.5
+
+[render]
+# Phase 1 A/B on the kinetic-type example (15 s, 1080x1920, hardware GPU capture):
+#   4w 41.0 s | 6w 39.6 s | 6w+stream 32.3 s | 8w+stream 33.8 s  -> 6 workers + parallel stream.
+workers = 6              # tools/hf.py adds `-w 6` to `render` unless -w/--workers is given
+quality = "looks"        # HyperFrames default (CRF 16); final encodes go through tools/export.py
+parallel_stream = true   # HF_CAPTURE_PARALLEL_STREAM=true: stream frames to the encoder, not disk
+
+[gemini]
+# Gemini is used ONLY through the Antigravity CLI (agy). Never the Gemini API.
+cli = "agy"
+agy_path = "auto"                 # auto = agy on PATH, else %LOCALAPPDATA%\agy\bin\agy.exe
+model = "gemini-3.8-flash-high"   # slug from `agy models` (effort is part of the slug)
+effort = "high"
+print_timeout = "15m"
+
+[stems]
+# tools/separate.py. Phase 2 benchmark on a 40 s fixture (CPU, 16 threads): see docs/STATUS.md.
+fast_model = "htdemucs.yaml"                                    # default: 4 stems, ~1x real time
+quality_model = "model_bs_roformer_ep_317_sdr_12.9755.ckpt"    # --quality: best vocals, ~8x real time
+mdxc_overlap = 2      # RoFormer chunks overlap; the model default (4) is ~2x slower
+demucs_shifts = 1     # audio-separator default 2 doubles the time
+
+[align]
+# tools/align.py bias corrections (s), calibrated in Phase 3 on tests/fixtures/words_* (exact timings):
+# starts come from <star>-per-word alignment (+25..45 ms late), ends from edge-star alignment (+40..67 ms late)
+start_offset = -0.030
+end_offset = -0.045
+
+[gpu]
+# Vulkan device for ncnn tools (rife, realesrgan): 0 = Intel Arc (see `bin/rife/rife-ncnn-vulkan.exe -l`)
+vulkan_device = 0
+
+[fx]
+# Phase 6 hold-out test (4x, 2 s of motion): v4.6 SSIM 0.955, v4.22 0.945, v4.26 0.950; minterpolate 0.837
+rife_model = "rife-v4.6"
+
+[indic_asr]
+# tools/indic_asr.py. Phase 3: OpenVINO int8 (own export of the official checkpoint) = same WER as
+# official fp32 (1.4 % mr+hi fixtures), ~1.5x faster on CPU; Arc GPU is slower for this decoder.
+device = "ov-cpu"
+weights = "int8"
+model_native = "flex"   # Phase 3: Flex native 0.0 % WER on mr+hi fixtures (Core 1.4 %)
+model_mixed = "flex"    # English words + numbers in Latin script (Core ignores the mode switch)

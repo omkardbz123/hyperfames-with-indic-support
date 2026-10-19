@@ -1,0 +1,141 @@
+{
+ "render": "D:\\AI video editor\\hyperframes\\projects\\demo-hindi-talking-head\\renders\\master.mp4",
+ "reviewed_at": "2026-10-19T17:19:43",
+ "ok": false,
+ "checks": [
+  {
+   "name": "technical",
+   "status": "pass",
+   "detail": "1080x1920 30 fps h264 yuv420p, 26.04s, 11.1 Mb/s, audio yes",
+   "fix": "rebuild/re-render; check the EDL format and duration"
+  },
+  {
+   "name": "loudness",
+   "status": "pass",
+   "detail": "-13.8 LUFS, TP -3.8 dBTP, LRA 1.7",
+   "fix": "re-run tools/build.py (the mix is mastered to -14 LUFS / -2 dBTP); don't change mix.wav by hand"
+  },
+  {
+   "name": "black",
+   "status": "pass",
+   "detail": "no black frames",
+   "fix": "a clip is missing or ends early: check data-start/duration in index.html and the prepped clip lengths"
+  },
+  {
+   "name": "freeze",
+   "status": "pass",
+   "detail": "no frozen picture",
+   "fix": "the source range ran past the end of the footage, or a prep step failed: check src_in/src_out"
+  },
+  {
+   "name": "cut_sync",
+   "status": "warn",
+   "detail": "5/6 snapped cuts within ±1 frame (worst 0.3 f); no clear picture change near: ['c02']",
+   "fix": "the render's cut moved away from its beat: rebuild from edl.json (don't hand-edit index.html)"
+  },
+  {
+   "name": "captions",
+   "status": "pass",
+   "detail": "34 pages, no overlaps, words match the aligner",
+   "fix": "rebuild captions from the transcript (tools/build.py / caption_comp.py); pages come from tools/captions.py"
+  },
+  {
+   "name": "safe_zone",
+   "status": "pass",
+   "detail": "1 text block(s) inside the safe zone (top 220, bottom 400, left 60, right 120 px)",
+   "fix": "shorten the text, use a smaller size, or move it (pos) in edl.json"
+  },
+  {
+   "name": "glyphs",
+   "status": "pass",
+   "detail": "35 text(s) checked: every character exists in its font",
+   "fix": "use a font that covers the script (Devanagari: Mukta, Hind, Noto Sans Devanagari, Baloo 2)"
+  },
+  {
+   "name": "facts",
+   "status": "pass",
+   "detail": "no unconfirmed brand facts",
+   "fix": "confirm with the user, update library/brands/<brand>/brand.json (to_confirm)"
+  },
+  {
+   "name": "licences",
+   "status": "fail",
+   "detail": "unknown licence: hindi_cut.mp4",
+   "fix": "ask the user (own footage -> tools/ingest.py --own), or add <file>.license.json"
+  },
+  {
+   "name": "hyperframes",
+   "status": "pass",
+   "detail": "lint, runtime, layout and contrast clean",
+   "fix": "see `uv run tools/hf.py check` in the project for details"
+  }
+ ],
+ "cuts": [
+  {
+   "clip": "c02",
+   "t": 5.2667,
+   "planned": 5.27,
+   "anchor": 5.27,
+   "kind": "word",
+   "detected": null,
+   "error_frames": null,
+   "strength": 2.0
+  },
+  {
+   "clip": "c03",
+   "t": 11.1,
+   "planned": 11.11,
+   "anchor": 11.11,
+   "kind": "word",
+   "detected": 11.1,
+   "error_frames": -0.3,
+   "strength": 4.5
+  },
+  {
+   "clip": "c04",
+   "t": 14.0667,
+   "planned": 14.07,
+   "anchor": 14.07,
+   "kind": "word",
+   "detected": 14.0667,
+   "error_frames": -0.1,
+   "strength": 3.9
+  },
+  {
+   "clip": "c05",
+   "t": 17.6,
+   "planned": 17.61,
+   "anchor": 17.61,
+   "kind": "word",
+   "detected": 17.6,
+   "error_frames": -0.3,
+   "strength": 5.3
+  },
+  {
+   "clip": "c06",
+   "t": 21.0667,
+   "planned": 21.07,
+   "anchor": 21.07,
+   "kind": "word",
+   "detected": 21.0667,
+   "error_frames": -0.1,
+   "strength": 4.8
+  },
+  {
+   "clip": "c07",
+   "t": 22.3333,
+   "planned": 22.33,
+   "anchor": 22.33,
+   "kind": "word",
+   "detected": 22.3333,
+   "error_frames": 0.1,
+   "strength": 2.6
+  }
+ ],
+ "gemini": null,
+ "sheet": "D:\\AI video editor\\hyperframes\\projects\\demo-hindi-talking-head\\review\\sheet.jpg",
+ "fixes": [
+  "licences: ask the user (own footage -> tools/ingest.py --own), or add <file>.license.json",
+  "cut_sync: the render's cut moved away from its beat: rebuild from edl.json (don't hand-edit index.html)"
+ ]
+}

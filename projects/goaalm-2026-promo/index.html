@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Anton"; src: url("assets/fonts/Anton-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; }
+      @font-face { font-family: "Playfair Display"; src: url("assets/fonts/PlayfairDisplay-Italic_wght_.ttf") format("truetype"); font-weight: 100 900; font-style: italic; }
+      @font-face { font-family: "Montserrat"; src: url("assets/fonts/Montserrat_wght_.ttf") format("truetype"); font-weight: 100 900; font-style: normal; }
+      @font-face { font-family: "Montserrat"; src: url("assets/fonts/Montserrat_wght_.ttf") format("truetype"); font-weight: 100 900; font-style: normal; }
+      @font-face { font-family: "Montserrat"; src: url("assets/fonts/Montserrat_wght_.ttf") format("truetype"); font-weight: 100 900; font-style: normal; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #000000; }
+      #root { width: 1080px; height: 1920px; position: relative; overflow: hidden; background-color: #000000; }
+      .scene { position: absolute; inset: 0; width: 1080px; height: 1920px; overflow: hidden; }
+      .fx, .kb { position: absolute; inset: 0; width: 100%; height: 100%; }
+      .media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+      .txt { position: absolute; display: flex; align-items: center; z-index: 110; pointer-events: none; }
+      .txt .w { display: inline-block; }
+      .ec { z-index: 130; }
+      .ovl { position: absolute; inset: 0; opacity: 0; z-index: 100; pointer-events: none; }
+      .scrim { position: absolute; left: 0; right: 0; z-index: 105; pointer-events: none; }
+      #captions-host { position: absolute; inset: 0; z-index: 115; }
+      
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="30.0" data-width="1080" data-height="1920">
+      <div id="s0" class="scene"><div id="fx0" class="fx"><div id="kb0" class="kb"><video id="v0" class="clip media" src="assets/clips/a01_7bc71c7ba0.mp4" muted playsinline data-start="-0.0005" data-duration="3.001" data-track-index="1"></video></div></div></div>
+      <div id="s1" class="scene"><div id="fx1" class="fx"><div id="kb1" class="kb"><video id="v1" class="clip media" src="assets/clips/a02_4a6e7f761d.mp4" muted playsinline data-start="2.9995" data-duration="1.1343" data-track-index="2"></video></div></div></div>
+      <div id="s2" class="scene"><div id="fx2" class="fx"><div id="kb2" class="kb"><video id="v2" class="clip media" src="assets/clips/a03_1988d441df.mp4" muted playsinline data-start="4.1328" data-duration="1.1344" data-track-index="3"></video></div></div></div>
+      <div id="s3" class="scene"><div id="fx3" class="fx"><div id="kb3" class="kb"><video id="v3" class="clip media" src="assets/clips/a04_3d6fe0a10a.mp4" muted playsinline data-start="5.2662" data-duration="2.301" data-track-index="4"></video></div></div></div>
+      <div id="s4" class="scene"><div id="fx4" class="fx"><div id="kb4" class="kb"><video id="v4" class="clip media" src="assets/clips/a05_19f30abe9e.mp4" muted playsinline data-start="7.5662" data-duration="2.301" data-track-index="5"></video></div></div></div>
+      <div id="s5" class="scene"><div id="fx5" class="fx"><div id="kb5" class="kb"><video id="v5" class="clip media" src="assets/clips/a06_1c7be75a2e.mp4" muted playsinline data-start="9.8662" data-duration="2.2676" data-track-index="6"></video></div></div></div>
+      <div id="s6" class="scene"><div id="fx6" class="fx"><div id="kb6" class="kb"><video id="v6" class="clip media" style="filter: brightness(0.70)" src="assets/clips/c06_f5dc5104c2.mp4" muted playsinline data-start="12.1328" data-duration="2.551" data-track-index="7"></video></div></div></div>
+      <div id="s7" class="scene"><div id="fx7" class="fx"><div id="kb7" class="kb"><img id="p7" class="clip media" src="assets/photos/c07_716fea4f04.jpg" alt="" data-start="14.1828" data-duration="4.8177" data-track-index="8" /></div></div></div>
+      <div id="s8" class="scene"><div id="fx8" class="fx"><div id="kb8" class="kb"><img id="p8" class="clip media" style="filter: brightness(0.70)" src="assets/photos/c08_a80f7d15fb.jpg" alt="" data-start="18.9995" data-duration="1.1343" data-track-index="9" /></div></div></div>
+      <div id="s9" class="scene"><div id="fx9" class="fx"><div id="kb9" class="kb"><img id="p9" class="clip media" style="filter: brightness(0.70)" src="assets/photos/c09_23799a8ec5.jpg" alt="" data-start="20.1328" data-duration="1.1677" data-track-index="11" /></div></div></div>
+      <div id="s10" class="scene"><div id="fx10" class="fx"><div id="kb10" class="kb"><video id="v10" class="clip media" style="filter: brightness(0.70)" src="assets/clips/c10_d938ac1ca6.mp4" muted playsinline data-start="21.2995" data-duration="2.301" data-track-index="12"></video></div></div></div>
+      <div id="s11" class="scene"><div id="fx11" class="fx"><div id="kb11" class="kb"><img id="p11" class="clip media" style="filter: brightness(0.70)" src="assets/photos/c11_3111ed0f56.jpg" alt="" data-start="23.5995" data-duration="1.1343" data-track-index="13" /></div></div></div>
+      <div id="s12" class="scene"><div id="fx12" class="fx"><div id="kb12" class="kb"><img id="p12" class="clip media" style="filter: brightness(0.70)" src="assets/photos/c12_73c585ef9c.jpg" alt="" data-start="24.7328" data-duration="5.2677" data-track-index="14" /></div></div></div>
+      <div class="scrim" style="bottom: 0; height: 1114px; background: linear-gradient(to top, rgba(0,0,0,0.66), rgba(0,0,0,0.5) 62%, rgba(0,0,0,0))"></div>
+      <div class="scrim" style="top: 0; height: 538px; background: linear-gradient(to bottom, rgba(0,0,0,0.66), rgba(0,0,0,0.42) 55%, rgba(0,0,0,0))"></div>
+      <div id="ov0" class="clip ovl" style="background-color: #FFFFFF" data-start="19.0" data-duration="0.35" data-track-index="10"></div>
+      <div id="tx0" class="clip txt" style="left: 80px; right: 140px; top: 0; bottom: 0; justify-content: center; text-align: center" data-start="0.35" data-duration="2.6" data-track-index="15"><span class="tx-in" style="display: block; font-family: &quot;Anton&quot;, sans-serif; font-weight: 400; font-size: 132px; line-height: 1.06; color: #F4F0E8; letter-spacing: 0.01em; text-transform: uppercase; text-shadow: 0 4px 24px rgba(0,0,0,.6);"><span class="w">THEY</span> <span class="w">CAN&#x27;T</span> <span class="w">SPEAK.</span></span></div>
+      <div id="tx1" class="clip txt" style="left: 80px; right: 140px; top: 0; bottom: 0; justify-content: center; text-align: center" data-start="3.1" data-duration="4.4" data-track-index="16"><span class="tx-in" style="display: block; font-family: &quot;Anton&quot;, sans-serif; font-weight: 400; font-size: 132px; line-height: 1.06; color: #F4F0E8; letter-spacing: 0.01em; text-transform: uppercase; text-shadow: 0 4px 24px rgba(0,0,0,.6);"><span class="w">BUT</span> <span class="w">THEY</span> <span class="w">FEEL</span> <span class="w">EVERYTHING.</span></span></div>
+      <div id="tx2" class="clip txt" style="left: 80px; right: 140px; top: 0; bottom: 0; justify-content: center; text-align: center" data-start="7.7" data-duration="4.35" data-track-index="17"><span class="tx-in" style="display: block; font-family: &quot;Anton&quot;, sans-serif; font-weight: 400; font-size: 132px; line-height: 1.06; color: #F4F0E8; letter-spacing: 0.01em; text-transform: uppercase; text-shadow: 0 4px 24px rgba(0,0,0,.6);"><span class="w">THE</span> <span class="w">FEAR.</span> <span class="w">THE</span> <span class="w">PAIN.</span></span></div>
+      <div id="tx3" class="clip txt" style="left: 80px; right: 140px; top: 0; bottom: 0; justify-content: center; text-align: center" data-start="12.25" data-duration="2.1" data-track-index="18"><span class="tx-in" style="display: block; font-family: &quot;Anton&quot;, sans-serif; font-weight: 400; font-size: 132px; line-height: 1.06; color: #F4F0E8; letter-spacing: 0.01em; text-transform: uppercase; text-shadow: 0 4px 24px rgba(0,0,0,.6);"><span class="w">EVERY.</span> <span class="w">SINGLE.</span> <span class="w">DAY.</span></span></div>
+      <div id="tx4" class="clip txt" style="left: 80px; right: 140px; bottom: 430px; justify-content: center; text-align: center" data-start="14.8" data-duration="4.05" data-track-index="19"><span class="tx-in" style="display: block; font-family: &quot;Playfair Display&quot;, sans-serif; font-weight: 400; font-style: italic; font-size: 84px; line-height: 1.06; color: #F4F0E8; letter-spacing: 0.0em; text-shadow: 0 4px 24px rgba(0,0,0,.6);"><span class="w">This</span> <span class="w">time,</span> <span class="w">we</span> <span class="w">speak</span> <span class="w">for</span> <span class="w">them.</span></span></div>
+      <div id="tx5" class="clip txt" style="left: 80px; right: 140px; top: 0; bottom: 0; justify-content: center; text-align: center" data-start="19.05" data-duration="3.5" data-track-index="20"><span class="tx-in" style="display: block; font-family: &quot;Anton&quot;, sans-serif; font-weight: 400; font-size: 190px; line-height: 1.06; color: #F4F0E8; letter-spacing: 0.0em; text-transform: uppercase; text-shadow: 0 4px 24px rgba(0,0,0,.6);"><span class="w">WALK</span> <span class="w">WITH</span> <span class="w">US</span></span></div>
+      <div id="tx6" class="clip txt" style="left: 80px; right: 140px; top: 0; bottom: 0; justify-content: center; text-align: center" data-start="22.65" data-duration="0.9" data-track-index="21"><span class="tx-in" style="display: block; font-family: &quot;Anton&quot;, sans-serif; font-weight: 400; font-size: 230px; line-height: 1.06; color: #FFB830; letter-spacing: 0.0em; text-transform: uppercase; text-shadow: 0 4px 24px rgba(0,0,0,.6);"><span class="w">NOW!</span></span></div>
+      <div id="tx7" class="clip txt" style="left: 80px; right: 140px; top: 260px; justify-content: center; text-align: center" data-start="23.6" data-duration="2.25" data-track-index="22"><span class="tx-in" style="display: block; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 700; font-size: 44px; line-height: 1.06; color: #F4F0E8; letter-spacing: 0.12em; text-transform: uppercase; background: #FFB830; color: #0C0C0E; padding: 10px 26px; border-radius: 8px;"><span class="w">GOA</span> <span class="w">ANIMAL</span> <span class="w">LIBERATION</span> <span class="w">MARCH</span></span></div>
+      <div id="tx8" class="clip txt" style="left: 80px; right: 140px; bottom: 430px; justify-content: center; text-align: center" data-start="23.75" data-duration="2.1" data-track-index="23"><span class="tx-in" style="display: block; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 800; font-size: 56px; line-height: 1.06; color: #F4F0E8; letter-spacing: 0.0em; text-shadow: 0 4px 24px rgba(0,0,0,.6);"><span class="w">5</span> <span class="w">DECEMBER</span> <span class="w">2026</span> <span class="w">·</span> <span class="w">PANAJI</span></span></div>
+      <div id="endcard" class="clip" style="position: absolute; inset: 0; z-index: 130; overflow: hidden; background-color: #0C0C0E; display: flex; justify-content: center; align-items: center; text-align: center; padding: 220px 150px 400px 90px" data-start="25.875" data-duration="4.125" data-track-index="24"><span class="ec-glow" style="position: absolute; left: 50%; top: 46%; width: 1000px; height: 1000px; margin-left: -500px; margin-top: -500px; border-radius: 50%; background: radial-gradient(circle, rgba(255,184,48,0.3) 0%, rgba(255,184,48,0.1) 38%, rgba(255,184,48,0) 68%);"></span><span class="ec-in" style="position: relative; display: flex; flex-direction: column; align-items: center;"><span class="ec-l ec-name" style="display: block; font-family: &quot;Anton&quot;, sans-serif; font-weight: 400; font-size: 104px; line-height: 1.08; color: #F4F0E8; margin-bottom: 34px; text-transform: uppercase; letter-spacing: 0.01em; "><span class="ec-w" style="display: inline-block;">GOA</span> <span class="ec-w" style="display: inline-block;">ANIMAL</span> <span class="ec-w" style="display: inline-block;">LIBERATION</span> <span class="ec-w" style="display: inline-block;">MARCH</span></span><span class="ec-l ec-rule" style="display: block; width: 140px; height: 8px; background-color: #FFB830; margin: 0 auto 30px;"></span><span class="ec-l ec-line" style="display: block; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 600; font-size: 50px; line-height: 1.08; color: #F4F0E8; margin-bottom: 16px; ">5 December 2026 · Panaji, Goa</span><span class="ec-l ec-line" style="display: block; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 600; font-size: 50px; line-height: 1.08; color: #F4F0E8; margin-bottom: 16px; ">Liberation is for all.</span><span class="ec-l ec-handle" style="display: block; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 700; font-size: 58px; line-height: 1.08; color: #FFB830; margin-bottom: 16px; ">@goaalm</span></span></div>
+      <audio id="mix" src="assets/audio/mix.wav" data-start="0" data-duration="30.0" data-track-index="125" data-volume="1"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+      tl.fromTo("#kb0", {scale: 1.0}, {scale: 1.06, duration: 3.0, ease: "none"}, 0.0);
+      tl.fromTo("#fx7", {opacity: 0}, {opacity: 1, duration: 0.5, ease: "sine.inOut"}, 14.1833);
+      tl.fromTo("#kb7", {scale: 1.0, transformOrigin: "50.0% 50.0%"}, {scale: 1.16, duration: 4.817, ease: "none"}, 14.1833);
+      tl.fromTo("#ov0", {opacity: 0.95}, {opacity: 0, duration: 0.35, ease: "power2.out"}, 19.0);
+      tl.fromTo("#kb8", {scale: 1.12, transformOrigin: "50.0% 50.0%"}, {scale: 1.0, duration: 1.133, ease: "none"}, 19.0);
+      tl.set("#fx8", {scale: 1.18}, 18.99);
+      tl.to("#fx8", {scale: 1, duration: 0.4, ease: "expo.out"}, 18.991);
+      tl.set("#fx8", {x: 9.6, y: 14.0}, 18.99);
+      tl.set("#fx8", {x: 4.4, y: -12.4}, 19.0233);
+      tl.set("#fx8", {x: -13.1, y: 10.9}, 19.0567);
+      tl.set("#fx8", {x: 13.1, y: -9.3}, 19.09);
+      tl.set("#fx8", {x: -6.6, y: 7.7}, 19.1233);
+      tl.set("#fx8", {x: -1.0, y: -6.2}, 19.1567);
+      tl.set("#fx8", {x: 5.1, y: 4.6}, 19.19);
+      tl.set("#fx8", {x: -4.4, y: -3.0}, 19.2233);
+      tl.set("#fx8", {x: 1.5, y: 1.5}, 19.2567);
+      tl.set("#fx8", {x: 0, y: 0}, 19.29);
+      tl.fromTo("#kb9", {scale: 1.0, transformOrigin: "50.0% 50.0%"}, {scale: 1.08, duration: 1.167, ease: "none"}, 20.1333);
+      tl.fromTo("#kb11", {scale: 1.08, transformOrigin: "50.0% 50.0%"}, {scale: 1.0, duration: 1.133, ease: "none"}, 23.6);
+      tl.fromTo("#kb12", {scale: 1.0, transformOrigin: "50.0% 50.0%"}, {scale: 1.08, duration: 5.267, ease: "none"}, 24.7333);
+      tl.fromTo("#tx0 .w", {y: 60, opacity: 0}, {y: 0, opacity: 1, duration: 0.5, ease: "power3.out", stagger: 0.06}, 0.35);
+      tl.fromTo("#tx1 .w", {y: 60, opacity: 0}, {y: 0, opacity: 1, duration: 0.5, ease: "power3.out", stagger: 0.06}, 3.1);
+      tl.fromTo("#tx2 .w", {y: 60, opacity: 0}, {y: 0, opacity: 1, duration: 0.5, ease: "power3.out", stagger: 0.06}, 7.7);
+      tl.fromTo("#tx3 .w", {scale: 1.7, opacity: 0}, {scale: 1, opacity: 1, duration: 0.2, ease: "power4.out", stagger: 0.07}, 12.25);
+      tl.fromTo("#tx4 .tx-in", {opacity: 0}, {opacity: 1, duration: 0.45, ease: "power1.out"}, 14.8);
+      tl.fromTo("#tx5 .w", {scale: 1.7, opacity: 0}, {scale: 1, opacity: 1, duration: 0.2, ease: "power4.out", stagger: 0.07}, 19.05);
+      tl.fromTo("#tx6 .w", {scale: 0.6, opacity: 0}, {scale: 1, opacity: 1, duration: 0.28, ease: "back.out(2.2)", stagger: 0.09}, 22.65);
+      tl.fromTo("#tx7 .w", {scale: 0.6, opacity: 0}, {scale: 1, opacity: 1, duration: 0.28, ease: "back.out(2.2)", stagger: 0.09}, 23.6);
+      tl.fromTo("#tx8 .w", {y: 60, opacity: 0}, {y: 0, opacity: 1, duration: 0.5, ease: "power3.out", stagger: 0.06}, 23.75);
+      tl.fromTo("#endcard", {opacity: 0}, {opacity: 1, duration: 0.3, ease: "power1.out"}, 25.875);
+      tl.fromTo("#endcard .ec-in", {scale: 1}, {scale: 1.05, duration: 4.125, ease: "none"}, 25.875);
+      tl.fromTo("#endcard .ec-glow", {scale: 0.5, opacity: 0}, {scale: 1, opacity: 1, duration: 0.8, ease: "power2.out"}, 25.925);
+      tl.to("#endcard .ec-glow", {scale: 1.18, opacity: 0.65, duration: 1.1, ease: "sine.inOut", repeat: 1, yoyo: true}, 26.775);
+      tl.fromTo("#endcard .ec-w", {scale: 1.9, opacity: 0, y: -24}, {scale: 1, opacity: 1, y: 0, duration: 0.34, ease: "power4.out", stagger: 0.12}, 25.995);
+      tl.fromTo("#endcard .ec-rule", {scaleX: 0}, {scaleX: 1, duration: 0.45, ease: "power3.out"}, 26.595);
+      tl.fromTo("#endcard .ec-line", {y: 40, opacity: 0, filter: "blur(8px)"}, {y: 0, opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power3.out", stagger: 0.18}, 26.895);
+      tl.fromTo("#endcard .ec-handle", {scale: 0.4, opacity: 0}, {scale: 1, opacity: 1, duration: 0.55, ease: "back.out(2.6)"}, 27.405);
+      tl.to("#endcard .ec-handle", {scale: 1.1, duration: 0.25, ease: "power2.out", yoyo: true, repeat: 1}, 28.305);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

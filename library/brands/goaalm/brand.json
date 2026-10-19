@@ -1,0 +1,81 @@
+{
+  "id": "goaalm",
+  "name": "Goa Animal Liberation March",
+  "name_mr": "गोवा प्राणी मुक्ती मोर्चा",
+  "name_hi": "गोवा पशु मुक्ति मार्च",
+  "handle": "@goaalm",
+  "tagline": "Liberation is for all.",
+  "colors": {
+    "accent": "#FFB830",
+    "paper": "#F4F0E8",
+    "ink": "#0C0C0E",
+    "accent_dim": "#C98A12"
+  },
+  "fonts": {
+    "display": "Anton",
+    "body": "Montserrat",
+    "serif_italic": "Playfair Display Italic",
+    "devanagari_display": "Mukta",
+    "devanagari_body": "Mukta"
+  },
+  "caption": {
+    "style": "kinetic",
+    "font": "Mukta",
+    "fg": "#F4F0E8",
+    "accent": "#FFB830"
+  },
+  "grades": {
+    "default": "warm_film",
+    "sombre": "bw_contrast",
+    "hope": "teal_orange"
+  },
+  "logo": null,
+  "event": {
+    "edition": "5th annual",
+    "date": "5 December 2026",
+    "time": "4 PM",
+    "city": "Panaji, Goa",
+    "route_from": "Dr. Babasaheb Ambedkar Park, Patto",
+    "route_to": "Azad Maidan"
+  },
+  "end_card": {
+    "lines": [
+      "{name}",
+      "{event.date} · {event.time}",
+      "{event.route_from} → {event.route_to}",
+      "{handle}"
+    ]
+  },
+  "safe_zone_reels": {
+    "top": 220,
+    "bottom": 400,
+    "right": 120,
+    "left": 60
+  },
+  "source": "Goa reel session (D:/AI video editor/goa video/render/event.json, engine.py)",
+  "to_confirm": [
+    "handle @goaalm",
+    "logo file (none yet)",
+    "Marathi/Hindi names above",
+    "Marathi/Hindi end-card wording (end_card_mr / end_card_hi)"
+  ],
+  "end_card_mr": {
+    "lines": [
+      "{name_mr}",
+      "५ डिसेंबर २०२६ · दुपारी ४ वाजता",
+      "डॉ. बाबासाहेब आंबेडकर पार्क, पाटो ते आझाद मैदान",
+      "{handle}"
+    ]
+  },
+  "end_card_hi": {
+    "lines": [
+      "{name_hi}",
+      "५ दिसंबर २०२६ · शाम ४ बजे",
+      "डॉ. बाबासाहेब आंबेडकर पार्क, पाटो से आज़ाद मैदान तक",
+      "{handle}"
+    ]
+  },
+  "confirmed": {
+    "event.date": "5 December 2026 (user, 2026-10-19)"
+  }
+}

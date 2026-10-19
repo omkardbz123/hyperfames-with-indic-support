@@ -1,0 +1,603 @@
+{
+ "title": "Cold Steel (beat-sync demo)",
+ "slug": "demo-beat-montage",
+ "recipe": "beat-sync",
+ "built_at": "2026-10-19T16:40:16",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30.0
+ },
+ "duration": 18.0,
+ "shader_mode": true,
+ "cuts": [
+  {
+   "clip": "c01",
+   "t": 0.0,
+   "planned": 0.0,
+   "anchor": null,
+   "kind": null
+  },
+  {
+   "clip": "c02",
+   "t": 2.9667,
+   "planned": 2.98,
+   "anchor": 2.980000000000004,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "c03",
+   "t": 5.0667,
+   "planned": 5.07,
+   "anchor": 5.069000000000003,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "c04",
+   "t": 7.1333,
+   "planned": 7.14,
+   "anchor": 7.140000000000001,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "c05",
+   "t": 8.2,
+   "planned": 8.2,
+   "anchor": 8.195999999999998,
+   "kind": "drop"
+  },
+  {
+   "clip": "c06",
+   "t": 9.2333,
+   "planned": 9.24,
+   "anchor": 9.239999999999995,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "c07",
+   "t": 10.2667,
+   "planned": 10.28,
+   "anchor": 10.280000000000001,
+   "kind": "beat"
+  },
+  {
+   "clip": "c08",
+   "t": 11.3333,
+   "planned": 11.34,
+   "anchor": 11.340000000000003,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "c09",
+   "t": 12.3667,
+   "planned": 12.38,
+   "anchor": 12.379999999999995,
+   "kind": "beat"
+  },
+  {
+   "clip": "c10",
+   "t": 13.4333,
+   "planned": 13.44,
+   "anchor": 13.444000000000003,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "c11",
+   "t": 14.4667,
+   "planned": 14.46,
+   "anchor": 14.459999999999994,
+   "kind": "beat"
+  },
+  {
+   "clip": "c12",
+   "t": 15.5333,
+   "planned": 15.52,
+   "anchor": 15.519999999999996,
+   "kind": "downbeat"
+  }
+ ],
+ "clips": [
+  {
+   "id": "c01",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4",
+   "at": 0.0,
+   "until": 2.9667,
+   "tl_start": 0.0,
+   "tl_end": 3.1667,
+   "src_in": 10.2,
+   "src_out": 13.3667,
+   "segments": [
+    {
+     "dur": 3.1667,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": [
+    {
+     "type": "push_in",
+     "to": 1.12
+    }
+   ],
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\assets\\clips\\c01_2bb503c6aa.mp4"
+  },
+  {
+   "id": "c02",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4",
+   "at": 2.9667,
+   "until": 5.0667,
+   "tl_start": 2.7667,
+   "tl_end": 5.0667,
+   "src_in": 25.0,
+   "src_out": 27.3,
+   "segments": [
+    {
+     "dur": 2.3000000000000003,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "glitch",
+    "dur": 0.4
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\assets\\clips\\c02_570218f6a4.mp4"
+  },
+  {
+   "id": "c03",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4",
+   "at": 5.0667,
+   "until": 7.1333,
+   "tl_start": 5.0667,
+   "tl_end": 7.1333,
+   "src_in": 22.3,
+   "src_out": 23.4666,
+   "segments": [
+    {
+     "dur": 0.6,
+     "speed": 1.0,
+     "rife": false
+    },
+    {
+     "dur": 1.2,
+     "speed": 0.25,
+     "rife": true
+    },
+    {
+     "dur": 0.2666000000000004,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\assets\\clips\\c03_2873e20f9f.mp4"
+  },
+  {
+   "id": "c04",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4",
+   "at": 7.1333,
+   "until": 8.2,
+   "tl_start": 7.1333,
+   "tl_end": 8.2,
+   "src_in": 32.6,
+   "src_out": 33.6667,
+   "segments": [
+    {
+     "dur": 1.066699999999999,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": [
+    {
+     "type": "push_in",
+     "to": 1.15
+    }
+   ],
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\assets\\clips\\c04_22f2006d76.mp4"
+  },
+  {
+   "id": "c05",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4",
+   "at": 8.2,
+   "until": 9.2333,
+   "tl_start": 8.2,
+   "tl_end": 9.2333,
+   "src_in": 86.2,
+   "src_out": 87.2333,
+   "segments": [
+    {
+     "dur": 1.0333000000000006,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "fx": [
+    {
+     "type": "zoom_punch",
+     "at": 8.196,
+     "amount": 1.2,
+     "dur": 0.4
+    },
+    {
+     "type": "shake",
+     "at": 8.196,
+     "dur": 0.35,
+     "amount": 22
+    }
+   ],
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\assets\\clips\\c05_d9b49f3a1a.mp4"
+  },
+  {
+   "id": "c06",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4",
+   "at": 9.2333,
+   "until": 10.2667,
+   "tl_start": 9.2333,
+   "tl_end": 10.2667,
+   "src_in": 93.2,
+   "src_out": 94.2334,
+   "segments": [
+    {
+     "dur": 1.0334000000000003,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\assets\\clips\\c06_dfe6aacafc.mp4"
+  },
+  {
+   "id": "c07",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4",
+   "at": 10.2667,
+   "until": 11.3333,
+   "tl_start": 10.2667,
+   "tl_end": 11.3333,
+   "src_in": 109.0,
+   "src_out": 110.0666,
+   "segments": [
+    {
+     "dur": 1.0665999999999993,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": [
+    {
+     "type": "zoom_punch",
+     "at": 10.28,
+     "amount": 1.1,
+     "dur": 0.25
+    }
+   ],
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\assets\\clips\\c07_9a5ee42846.mp4"
+  },
+  {
+   "id": "c08",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4",
+   "at": 11.3333,
+   "until": 12.3667,
+   "tl_start": 11.3333,
+   "tl_end": 12.3667,
+   "src_in": 48.0,
+   "src_out": 49.0334,
+   "segments": [
+    {
+     "dur": 1.0334000000000003,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\assets\\clips\\c08_78ad92c31f.mp4"
+  },
+  {
+   "id": "c09",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4",
+   "at": 12.3667,
+   "until": 13.4333,
+   "tl_start": 12.3667,
+   "tl_end": 13.4333,
+   "src_in": 60.5,
+   "src_out": 61.5666,
+   "segments": [
+    {
+     "dur": 1.0665999999999993,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": [
+    {
+     "type": "zoom_punch",
+     "at": 12.38,
+     "amount": 1.1,
+     "dur": 0.25
+    }
+   ],
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\assets\\clips\\c09_6235bab456.mp4"
+  },
+  {
+   "id": "c10",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4",
+   "at": 13.4333,
+   "until": 14.4667,
+   "tl_start": 13.4333,
+   "tl_end": 14.6417,
+   "src_in": 83.4,
+   "src_out": 84.6084,
+   "segments": [
+    {
+     "dur": 1.2084000000000004,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\assets\\clips\\c10_0b1f5392ed.mp4"
+  },
+  {
+   "id": "c11",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4",
+   "at": 14.4667,
+   "until": 15.5333,
+   "tl_start": 14.2917,
+   "tl_end": 15.5333,
+   "src_in": 112.825,
+   "src_out": 114.0666,
+   "segments": [
+    {
+     "dur": 1.2416000000000011,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "chromatic-split",
+    "dur": 0.35
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\assets\\clips\\c11_920c68b242.mp4"
+  },
+  {
+   "id": "c12",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4",
+   "at": 15.5333,
+   "until": 18.0,
+   "tl_start": 15.5333,
+   "tl_end": 18.0,
+   "src_in": 80.3,
+   "src_out": 81.32,
+   "segments": [
+    {
+     "dur": 0.4,
+     "speed": 1.0,
+     "rife": false
+    },
+    {
+     "dur": 2.0666999999999995,
+     "speed": 0.3,
+     "rife": true
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "dur": 0.25
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\demo-beat-montage\\assets\\clips\\c12_176a8685a9.mp4"
+  }
+ ],
+ "text": [
+  {
+   "content": "COLD STEEL",
+   "at": 0.45,
+   "until": 2.85,
+   "style": "title",
+   "pos": "center"
+  },
+  {
+   "content": "NO FEAR",
+   "at": 8.25,
+   "until": 9.2,
+   "style": "big",
+   "pos": "center"
+  },
+  {
+   "content": "STEEL.",
+   "at": 16.1,
+   "until": 18.0,
+   "style": "big",
+   "pos": "center"
+  }
+ ],
+ "endcard": null,
+ "captions": null,
+ "vo": [],
+ "music": {
+  "src": "library/music/incompetech/Go Cart - Drop Mix.mp3",
+  "from": 68.0,
+  "at": 0.0,
+  "fade_in": 0.05,
+  "fade_out": 1.2,
+  "path": "D:\\AI video editor\\hyperframes\\library\\music\\incompetech\\Go Cart - Drop Mix.mp3",
+  "until": 18.0
+ },
+ "sfx": [
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\swish.wav",
+   "at": 2.98,
+   "gain_db": -8.0,
+   "align": "onset"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\riser.wav",
+   "at": 8.196,
+   "gain_db": -5.0,
+   "align": "end"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\boom.wav",
+   "at": 8.196,
+   "gain_db": 0.0,
+   "align": "onset"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\impact.wav",
+   "at": 15.52,
+   "gain_db": -6.0,
+   "align": "onset"
+  }
+ ],
+ "loudness": {
+  "I": -13.9,
+  "LRA": 3.4,
+  "TP": -2.7
+ },
+ "safe_zone": {
+  "top": 220,
+  "bottom": 400,
+  "right": 120,
+  "left": 60
+ },
+ "fonts": [
+  "Anton"
+ ],
+ "glyphs": [
+  {
+   "text": "COLD STEEL",
+   "font": "Anton",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\anton\\Anton-Regular.ttf"
+  },
+  {
+   "text": "NO FEAR",
+   "font": "Anton",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\anton\\Anton-Regular.ttf"
+  },
+  {
+   "text": "STEEL.",
+   "font": "Anton",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\anton\\Anton-Regular.ttf"
+  }
+ ],
+ "models": [
+  "rife"
+ ],
+ "assets": [
+  {
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\tests\\fixtures\\footage\\tos_60-180.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\music\\incompetech\\Go Cart - Drop Mix.mp3"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\swish.wav"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\riser.wav"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\boom.wav"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\impact.wav"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\luts\\bw_contrast.cube"
+  }
+ ],
+ "unconfirmed_facts": [],
+ "warnings": [],
+ "brand": null,
+ "caption_post": "Cold steel. A beat-sync edit test: every cut on the beat, slow motion by RIFE, cut together by a free, local AI video studio.",
+ "hashtags": [
+  "#beatsync",
+  "#edit",
+  "#tearsofsteel",
+  "#blender"
+ ],
+ "build_seconds": 6.6
+}

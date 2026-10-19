@@ -1,0 +1,32 @@
+[
+ {
+  "name": "bw_contrast",
+  "file": "bw_contrast.cube",
+  "license": "own work (ai-video-studio)",
+  "size": 33
+ },
+ {
+  "name": "teal_orange",
+  "file": "teal_orange.cube",
+  "license": "own work (ai-video-studio)",
+  "size": 33
+ },
+ {
+  "name": "warm_film",
+  "file": "warm_film.cube",
+  "license": "own work (ai-video-studio)",
+  "size": 33
+ },
+ {
+  "name": "cool_night",
+  "file": "cool_night.cube",
+  "license": "own work (ai-video-studio)",
+  "size": 33
+ },
+ {
+  "name": "faded_matte",
+  "file": "faded_matte.cube",
+  "license": "own work (ai-video-studio)",
+  "size": 33
+ }
+]

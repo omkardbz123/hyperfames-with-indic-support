@@ -1,0 +1,361 @@
+{
+ "title": "Goa Animal Liberation March 2026 promo",
+ "recipe": "promo",
+ "format": "reels",
+ "duration": 30.0,
+ "brand": "goaalm",
+ "grade": "warm_film",
+ "music": {
+  "src": "inbox/epic music.mp3",
+  "from": 41.0,
+  "at": 0.0,
+  "fade_in": 0.3,
+  "fade_out": 2.0,
+  "rides": [
+   {
+    "from": 19.2,
+    "to": 25.6,
+    "db": -4
+   }
+  ]
+ },
+ "clips": [
+  {
+   "id": "a01",
+   "src": "library/stock/pexels/27875229.mp4",
+   "in": 4.0,
+   "at": 0.0,
+   "speed": 0.5,
+   "rife": true,
+   "grade": "bw_contrast",
+   "crop": {
+    "x": 0.5,
+    "y": 0.55,
+    "zoom": 1.45
+   },
+   "fx": [
+    {
+     "type": "push_in",
+     "to": 1.06
+    }
+   ]
+  },
+  {
+   "id": "a02",
+   "src": "inbox/animal liberation march.mp4",
+   "in": 48.0,
+   "at": 3.006,
+   "speed": 0.6,
+   "grade": "bw_contrast",
+   "snap": {
+    "to": "downbeat"
+   },
+   "crop": {
+    "x": 0.45
+   }
+  },
+  {
+   "id": "a03",
+   "src": "inbox/animal liberation march.mp4",
+   "in": 58.8,
+   "at": 4.14,
+   "speed": 0.6,
+   "grade": "bw_contrast",
+   "snap": {
+    "to": "beat"
+   },
+   "crop": {
+    "x": 0.55
+   }
+  },
+  {
+   "id": "a04",
+   "src": "library/stock/pexels/11347984.mp4",
+   "in": 9.0,
+   "at": 5.283,
+   "speed": 0.5,
+   "rife": true,
+   "grade": "bw_contrast",
+   "snap": {
+    "to": "downbeat"
+   },
+   "crop": {
+    "x": 0.43
+   }
+  },
+  {
+   "id": "a05",
+   "src": "library/stock/commons/52651131.webm",
+   "in": 7.5,
+   "at": 7.58,
+   "speed": 0.5,
+   "rife": true,
+   "grade": "bw_contrast",
+   "snap": {
+    "to": "downbeat"
+   },
+   "crop": {
+    "x": 0.72
+   }
+  },
+  {
+   "id": "a06",
+   "src": "library/stock/commons/147566978.webm",
+   "in": 0.2,
+   "at": 9.86,
+   "speed": 0.5,
+   "rife": true,
+   "grade": "bw_contrast",
+   "snap": {
+    "to": "downbeat"
+   },
+   "crop": {
+    "x": 0.5,
+    "y": 0.45,
+    "zoom": 1.15
+   }
+  },
+  {
+   "id": "c06",
+   "src": "inbox/animal liberation march.mp4",
+   "in": 90.47,
+   "at": 12.147,
+   "speed": 0.22,
+   "grade": "bw_contrast",
+   "snap": {
+    "to": "downbeat"
+   },
+   "crop": {
+    "x": 0.5
+   },
+   "rife": true,
+   "dim": 0.3
+  },
+  {
+   "id": "c07",
+   "src": "./media/up/cage.png",
+   "at": 14.44,
+   "snap": {
+    "to": "downbeat"
+   },
+   "grade": "bw_contrast",
+   "transition": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "kenburns": {
+    "from": 1.0,
+    "to": 1.16
+   }
+  },
+  {
+   "id": "c08",
+   "src": "./media/up/banner9.png",
+   "at": 18.99,
+   "snap": {
+    "to": "drop",
+    "tol": 0.1
+   },
+   "transition": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "kenburns": {
+    "from": 1.12,
+    "to": 1.0
+   },
+   "fx": [
+    {
+     "type": "zoom_punch",
+     "at": 18.99,
+     "amount": 1.18,
+     "dur": 0.4
+    },
+    {
+     "type": "shake",
+     "at": 18.99,
+     "dur": 0.3,
+     "amount": 20
+    }
+   ],
+   "dim": 0.3
+  },
+  {
+   "id": "c09",
+   "src": "./media/up/banner4.png",
+   "at": 20.142,
+   "snap": {
+    "to": "beat"
+   },
+   "kenburns": {
+    "from": 1.0,
+    "to": 1.08
+   },
+   "dim": 0.3
+  },
+  {
+   "id": "c10",
+   "src": "inbox/goamarch photots/Goa Animal Liberation March held on 27th December 2025 in Panjim Goa India (1).mp4",
+   "in": 4.3,
+   "at": 21.299,
+   "snap": {
+    "to": "downbeat"
+   },
+   "crop": {
+    "x": 0.45
+   },
+   "dim": 0.3
+  },
+  {
+   "id": "c11",
+   "src": "./media/up/walk11.png",
+   "at": 23.59,
+   "snap": {
+    "to": "downbeat"
+   },
+   "kenburns": {
+    "from": 1.08,
+    "to": 1.0
+   },
+   "dim": 0.3
+  },
+  {
+   "id": "c12",
+   "src": "./media/up/faces1.png",
+   "at": 24.72,
+   "snap": {
+    "to": "beat"
+   },
+   "kenburns": {
+    "from": 1.0,
+    "to": 1.08
+   },
+   "dim": 0.3
+  }
+ ],
+ "text": [
+  {
+   "content": "THEY CAN'T SPEAK.",
+   "at": 0.35,
+   "until": 2.95,
+   "style": "title",
+   "anim": "rise"
+  },
+  {
+   "content": "BUT THEY FEEL EVERYTHING.",
+   "at": 3.1,
+   "until": 7.5,
+   "style": "title",
+   "anim": "rise"
+  },
+  {
+   "content": "THE FEAR. THE PAIN.",
+   "at": 7.7,
+   "until": 12.05,
+   "style": "title",
+   "anim": "rise",
+   "highlight": [
+    "PAIN."
+   ]
+  },
+  {
+   "content": "EVERY. SINGLE. DAY.",
+   "at": 12.25,
+   "until": 14.35,
+   "style": "title",
+   "anim": "slam"
+  },
+  {
+   "content": "This time, we speak for them.",
+   "at": 14.8,
+   "until": 18.85,
+   "style": "quote",
+   "anim": "fade",
+   "pos": "bottom",
+   "size": 84
+  },
+  {
+   "content": "WALK WITH US",
+   "at": 19.05,
+   "until": 22.55,
+   "style": "big",
+   "anim": "slam",
+   "size": 190
+  },
+  {
+   "content": "NOW!",
+   "at": 22.65,
+   "until": 23.55,
+   "style": "big",
+   "anim": "pop",
+   "size": 230,
+   "color": "#FFB830"
+  },
+  {
+   "content": "GOA ANIMAL LIBERATION MARCH",
+   "at": 23.6,
+   "until": 25.85,
+   "style": "tag",
+   "pos": "top",
+   "size": 44,
+   "anim": "pop"
+  },
+  {
+   "content": "5 DECEMBER 2026 · PANAJI",
+   "at": 23.75,
+   "until": 25.85,
+   "style": "subtitle",
+   "pos": "bottom",
+   "anim": "rise",
+   "weight": 800,
+   "size": 56
+  }
+ ],
+ "sfx": [
+  {
+   "name": "riser",
+   "at": 18.99,
+   "gain_db": -7
+  },
+  {
+   "name": "epic_hit",
+   "at": 18.99,
+   "gain_db": -1.5
+  },
+  {
+   "src": "./media/chant.wav",
+   "at": 19.0,
+   "gain_db": 3,
+   "align": "onset"
+  },
+  {
+   "name": "whoosh",
+   "at": 25.6,
+   "gain_db": -12
+  },
+  {
+   "name": "hit",
+   "at": 26.05,
+   "gain_db": -14
+  }
+ ],
+ "endcard": {
+  "at": 25.875,
+  "until": 30.0,
+  "lines": [
+   "GOA ANIMAL LIBERATION MARCH",
+   "5 December 2026 · Panaji, Goa",
+   "Liberation is for all.",
+   "@goaalm"
+  ]
+ },
+ "caption_post": "They can't speak. This time, we speak for them.\n\nGoa Animal Liberation March · 5 December 2026 · Panaji, Goa.\nWalk with us. 🐾",
+ "hashtags": [
+  "#GoaALM",
+  "#AnimalLiberation",
+  "#Goa",
+  "#Panaji",
+  "#GoVegan",
+  "#VeganIndia"
+ ]
+}

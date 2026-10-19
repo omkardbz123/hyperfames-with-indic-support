@@ -1,0 +1,38 @@
+{
+ "id": "l04",
+ "key": "ceaf91718d4e",
+ "text": "चला, त्यांचा आवाज बनूया.",
+ "lang": "mr",
+ "voice": "mr-IN-AarohiNeural",
+ "rate": "-4%",
+ "pitch": "+0Hz",
+ "duration": 2.335,
+ "words": [
+  {
+   "text": "चला,",
+   "start": 0.03,
+   "end": 0.515,
+   "conf": 0.973
+  },
+  {
+   "text": "त्यांचा",
+   "start": 0.71,
+   "end": 1.235,
+   "conf": 0.983
+  },
+  {
+   "text": "आवाज",
+   "start": 1.33,
+   "end": 1.735,
+   "conf": 0.972
+  },
+  {
+   "text": "बनूया.",
+   "start": 1.79,
+   "end": 2.175,
+   "conf": 0.92
+  }
+ ],
+ "engine": "edge-tts",
+ "timing": "mms-align on the generated audio"
+}

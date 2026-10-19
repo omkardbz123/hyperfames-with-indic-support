@@ -1,0 +1,190 @@
+{
+ "render": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\renders\\master.mp4",
+ "reviewed_at": "2026-10-19T21:08:15",
+ "ok": true,
+ "checks": [
+  {
+   "name": "technical",
+   "status": "pass",
+   "detail": "1080x1920 30 fps h264 yuv420p, 30.00s, 10.0 Mb/s, audio yes",
+   "fix": "rebuild/re-render; check the EDL format and duration"
+  },
+  {
+   "name": "loudness",
+   "status": "pass",
+   "detail": "-13.9 LUFS, TP -2.4 dBTP, LRA 5.1",
+   "fix": "re-run tools/build.py (the mix is mastered to -14 LUFS / -2 dBTP); don't change mix.wav by hand"
+  },
+  {
+   "name": "black",
+   "status": "pass",
+   "detail": "no black frames",
+   "fix": "a clip is missing or ends early: check data-start/duration in index.html and the prepped clip lengths"
+  },
+  {
+   "name": "freeze",
+   "status": "pass",
+   "detail": "no frozen picture",
+   "fix": "the source range ran past the end of the footage, or a prep step failed: check src_in/src_out"
+  },
+  {
+   "name": "cut_sync",
+   "status": "pass",
+   "detail": "11/11 snapped cuts within ±1 frame (worst 0.5 f)",
+   "fix": "the render's cut moved away from its beat: rebuild from edl.json (don't hand-edit index.html)"
+  },
+  {
+   "name": "captions",
+   "status": "info",
+   "detail": "no captions in this build",
+   "fix": ""
+  },
+  {
+   "name": "safe_zone",
+   "status": "pass",
+   "detail": "10 text block(s) inside the safe zone (top 220, bottom 400, left 60, right 120 px)",
+   "fix": "shorten the text, use a smaller size, or move it (pos) in edl.json"
+  },
+  {
+   "name": "glyphs",
+   "status": "pass",
+   "detail": "13 text(s) checked: every character exists in its font",
+   "fix": "use a font that covers the script (Devanagari: Mukta, Hind, Noto Sans Devanagari, Baloo 2)"
+  },
+  {
+   "name": "facts",
+   "status": "warn",
+   "detail": "to confirm with the user: handle @goaalm; logo file (none yet); Marathi/Hindi names above; Marathi/Hindi end-card wording (end_card_mr / end_card_hi)",
+   "fix": "confirm with the user, update library/brands/<brand>/brand.json (to_confirm)"
+  },
+  {
+   "name": "licences",
+   "status": "pass",
+   "detail": "21 asset(s), all licensed",
+   "fix": "ask the user (own footage -> tools/ingest.py --own), or add <file>.license.json"
+  },
+  {
+   "name": "hyperframes",
+   "status": "pass",
+   "detail": "lint, runtime, layout and contrast clean",
+   "fix": "see `uv run tools/hf.py check` in the project for details"
+  }
+ ],
+ "cuts": [
+  {
+   "clip": "a02",
+   "t": 3.0,
+   "planned": 3.006,
+   "anchor": 3.0060000000000002,
+   "kind": "downbeat",
+   "detected": 3.0,
+   "error_frames": -0.18,
+   "strength": 25.2
+  },
+  {
+   "clip": "a03",
+   "t": 4.1333,
+   "planned": 4.14,
+   "anchor": 4.140000000000001,
+   "kind": "beat",
+   "detected": 4.1333,
+   "error_frames": -0.2,
+   "strength": 9.0
+  },
+  {
+   "clip": "a04",
+   "t": 5.2667,
+   "planned": 5.283,
+   "anchor": 5.283000000000001,
+   "kind": "downbeat",
+   "detected": 5.2667,
+   "error_frames": -0.49,
+   "strength": 8.1
+  },
+  {
+   "clip": "a05",
+   "t": 7.5667,
+   "planned": 7.58,
+   "anchor": 7.579999999999998,
+   "kind": "downbeat",
+   "detected": 7.5667,
+   "error_frames": -0.4,
+   "strength": 9.1
+  },
+  {
+   "clip": "a06",
+   "t": 9.8667,
+   "planned": 9.86,
+   "anchor": 9.86,
+   "kind": "downbeat",
+   "detected": 9.8667,
+   "error_frames": 0.2,
+   "strength": 9.2
+  },
+  {
+   "clip": "c06",
+   "t": 12.1333,
+   "planned": 12.147,
+   "anchor": 12.146999999999998,
+   "kind": "downbeat",
+   "detected": 12.1333,
+   "error_frames": -0.41,
+   "strength": 14.6
+  },
+  {
+   "clip": "c08",
+   "t": 19.0,
+   "planned": 18.99,
+   "anchor": 18.990000000000002,
+   "kind": "drop",
+   "detected": 19.0,
+   "error_frames": 0.3,
+   "strength": 52.6
+  },
+  {
+   "clip": "c09",
+   "t": 20.1333,
+   "planned": 20.142,
+   "anchor": 20.142000000000003,
+   "kind": "beat",
+   "detected": 20.1333,
+   "error_frames": -0.26,
+   "strength": 14.4
+  },
+  {
+   "clip": "c10",
+   "t": 21.3,
+   "planned": 21.299,
+   "anchor": 21.299,
+   "kind": "downbeat",
+   "detected": 21.3,
+   "error_frames": 0.03,
+   "strength": 7.6
+  },
+  {
+   "clip": "c11",
+   "t": 23.6,
+   "planned": 23.59,
+   "anchor": 23.590000000000003,
+   "kind": "downbeat",
+   "detected": 23.6,
+   "error_frames": 0.3,
+   "strength": 6.5
+  },
+  {
+   "clip": "c12",
+   "t": 24.7333,
+   "planned": 24.72,
+   "anchor": 24.72,
+   "kind": "beat",
+   "detected": 24.7333,
+   "error_frames": 0.4,
+   "strength": 14.3
+  }
+ ],
+ "gemini": null,
+ "sheet": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\review\\sheet.jpg",
+ "fixes": [
+  "facts: confirm with the user, update library/brands/<brand>/brand.json (to_confirm)"
+ ]
+}

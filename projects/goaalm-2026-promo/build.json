@@ -1,0 +1,731 @@
+{
+ "title": "Goa Animal Liberation March 2026 promo",
+ "slug": "goaalm-2026-promo",
+ "recipe": "promo",
+ "built_at": "2026-10-19T21:05:10",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30.0
+ },
+ "duration": 30.0,
+ "shader_mode": false,
+ "cuts": [
+  {
+   "clip": "a01",
+   "t": 0.0,
+   "planned": 0.0,
+   "anchor": null,
+   "kind": null
+  },
+  {
+   "clip": "a02",
+   "t": 3.0,
+   "planned": 3.006,
+   "anchor": 3.0060000000000002,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "a03",
+   "t": 4.1333,
+   "planned": 4.14,
+   "anchor": 4.140000000000001,
+   "kind": "beat"
+  },
+  {
+   "clip": "a04",
+   "t": 5.2667,
+   "planned": 5.283,
+   "anchor": 5.283000000000001,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "a05",
+   "t": 7.5667,
+   "planned": 7.58,
+   "anchor": 7.579999999999998,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "a06",
+   "t": 9.8667,
+   "planned": 9.86,
+   "anchor": 9.86,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "c06",
+   "t": 12.1333,
+   "planned": 12.147,
+   "anchor": 12.146999999999998,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "c07",
+   "t": 14.4333,
+   "planned": 14.44,
+   "anchor": 14.439999999999998,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "c08",
+   "t": 19.0,
+   "planned": 18.99,
+   "anchor": 18.990000000000002,
+   "kind": "drop"
+  },
+  {
+   "clip": "c09",
+   "t": 20.1333,
+   "planned": 20.142,
+   "anchor": 20.142000000000003,
+   "kind": "beat"
+  },
+  {
+   "clip": "c10",
+   "t": 21.3,
+   "planned": 21.299,
+   "anchor": 21.299,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "c11",
+   "t": 23.6,
+   "planned": 23.59,
+   "anchor": 23.590000000000003,
+   "kind": "downbeat"
+  },
+  {
+   "clip": "c12",
+   "t": 24.7333,
+   "planned": 24.72,
+   "anchor": 24.72,
+   "kind": "beat"
+  }
+ ],
+ "clips": [
+  {
+   "id": "a01",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\pexels\\27875229.mp4",
+   "at": 0.0,
+   "until": 3.0,
+   "tl_start": 0.0,
+   "tl_end": 3.0,
+   "src_in": 4.0,
+   "src_out": 5.5,
+   "segments": [
+    {
+     "dur": 3.0,
+     "speed": 0.5,
+     "rife": true
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": [
+    {
+     "type": "push_in",
+     "to": 1.06
+    }
+   ],
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\clips\\a01_7bc71c7ba0.mp4"
+  },
+  {
+   "id": "a02",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\inbox\\animal liberation march.mp4",
+   "at": 3.0,
+   "until": 4.1333,
+   "tl_start": 3.0,
+   "tl_end": 4.1333,
+   "src_in": 48.0,
+   "src_out": 48.68,
+   "segments": [
+    {
+     "dur": 1.1333000000000002,
+     "speed": 0.6,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\clips\\a02_4a6e7f761d.mp4"
+  },
+  {
+   "id": "a03",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\inbox\\animal liberation march.mp4",
+   "at": 4.1333,
+   "until": 5.2667,
+   "tl_start": 4.1333,
+   "tl_end": 5.2667,
+   "src_in": 58.8,
+   "src_out": 59.48,
+   "segments": [
+    {
+     "dur": 1.1334,
+     "speed": 0.6,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\clips\\a03_1988d441df.mp4"
+  },
+  {
+   "id": "a04",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\pexels\\11347984.mp4",
+   "at": 5.2667,
+   "until": 7.5667,
+   "tl_start": 5.2667,
+   "tl_end": 7.5667,
+   "src_in": 9.0,
+   "src_out": 10.15,
+   "segments": [
+    {
+     "dur": 2.3,
+     "speed": 0.5,
+     "rife": true
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\clips\\a04_3d6fe0a10a.mp4"
+  },
+  {
+   "id": "a05",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\52651131.webm",
+   "at": 7.5667,
+   "until": 9.8667,
+   "tl_start": 7.5667,
+   "tl_end": 9.8667,
+   "src_in": 7.5,
+   "src_out": 8.65,
+   "segments": [
+    {
+     "dur": 2.3,
+     "speed": 0.5,
+     "rife": true
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\clips\\a05_19f30abe9e.mp4"
+  },
+  {
+   "id": "a06",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\147566978.webm",
+   "at": 9.8667,
+   "until": 12.1333,
+   "tl_start": 9.8667,
+   "tl_end": 12.1333,
+   "src_in": 0.2,
+   "src_out": 1.3333,
+   "segments": [
+    {
+     "dur": 2.2666000000000004,
+     "speed": 0.5,
+     "rife": true
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\clips\\a06_1c7be75a2e.mp4"
+  },
+  {
+   "id": "c06",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\inbox\\animal liberation march.mp4",
+   "at": 12.1333,
+   "until": 14.4333,
+   "tl_start": 12.1333,
+   "tl_end": 14.6833,
+   "src_in": 90.47,
+   "src_out": 91.031,
+   "segments": [
+    {
+     "dur": 2.549999999999999,
+     "speed": 0.22,
+     "rife": true
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\clips\\c06_f5dc5104c2.mp4"
+  },
+  {
+   "id": "c07",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\media\\up\\cage.png",
+   "at": 14.4333,
+   "until": 19.0,
+   "tl_start": 14.1833,
+   "tl_end": 19.0,
+   "src_in": 0.0,
+   "src_out": 4.8167,
+   "segments": [
+    {
+     "dur": 4.816700000000001,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\photos\\c07_716fea4f04.jpg"
+  },
+  {
+   "id": "c08",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\media\\up\\banner9.png",
+   "at": 19.0,
+   "until": 20.1333,
+   "tl_start": 19.0,
+   "tl_end": 20.1333,
+   "src_in": 0.0,
+   "src_out": 1.1333,
+   "segments": [
+    {
+     "dur": 1.1332999999999984,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "fx": [
+    {
+     "type": "zoom_punch",
+     "at": 18.99,
+     "amount": 1.18,
+     "dur": 0.4
+    },
+    {
+     "type": "shake",
+     "at": 18.99,
+     "dur": 0.3,
+     "amount": 20
+    }
+   ],
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\photos\\c08_a80f7d15fb.jpg"
+  },
+  {
+   "id": "c09",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\media\\up\\banner4.png",
+   "at": 20.1333,
+   "until": 21.3,
+   "tl_start": 20.1333,
+   "tl_end": 21.3,
+   "src_in": 0.0,
+   "src_out": 1.1667,
+   "segments": [
+    {
+     "dur": 1.1667000000000023,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\photos\\c09_23799a8ec5.jpg"
+  },
+  {
+   "id": "c10",
+   "kind": "video",
+   "path": "D:\\AI video editor\\hyperframes\\inbox\\goamarch photots\\Goa Animal Liberation March held on 27th December 2025 in Panjim Goa India (1).mp4",
+   "at": 21.3,
+   "until": 23.6,
+   "tl_start": 21.3,
+   "tl_end": 23.6,
+   "src_in": 4.3,
+   "src_out": 6.6,
+   "segments": [
+    {
+     "dur": 2.3000000000000007,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\clips\\c10_d938ac1ca6.mp4"
+  },
+  {
+   "id": "c11",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\media\\up\\walk11.png",
+   "at": 23.6,
+   "until": 24.7333,
+   "tl_start": 23.6,
+   "tl_end": 24.7333,
+   "src_in": 0.0,
+   "src_out": 1.1333,
+   "segments": [
+    {
+     "dur": 1.1332999999999984,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\photos\\c11_3111ed0f56.jpg"
+  },
+  {
+   "id": "c12",
+   "kind": "photo",
+   "path": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\media\\up\\faces1.png",
+   "at": 24.7333,
+   "until": 30.0,
+   "tl_start": 24.7333,
+   "tl_end": 30.0,
+   "src_in": 0.0,
+   "src_out": 5.2667,
+   "segments": [
+    {
+     "dur": 5.2667,
+     "speed": 1.0,
+     "rife": false
+    }
+   ],
+   "transition": {
+    "type": "cut",
+    "dur": 0.0
+   },
+   "fx": null,
+   "media": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\assets\\photos\\c12_73c585ef9c.jpg"
+  }
+ ],
+ "text": [
+  {
+   "content": "THEY CAN'T SPEAK.",
+   "at": 0.35,
+   "until": 2.95,
+   "style": "title",
+   "pos": "center"
+  },
+  {
+   "content": "BUT THEY FEEL EVERYTHING.",
+   "at": 3.1,
+   "until": 7.5,
+   "style": "title",
+   "pos": "center"
+  },
+  {
+   "content": "THE FEAR. THE PAIN.",
+   "at": 7.7,
+   "until": 12.05,
+   "style": "title",
+   "pos": "center"
+  },
+  {
+   "content": "EVERY. SINGLE. DAY.",
+   "at": 12.25,
+   "until": 14.35,
+   "style": "title",
+   "pos": "center"
+  },
+  {
+   "content": "This time, we speak for them.",
+   "at": 14.8,
+   "until": 18.85,
+   "style": "quote",
+   "pos": "bottom"
+  },
+  {
+   "content": "WALK WITH US",
+   "at": 19.05,
+   "until": 22.55,
+   "style": "big",
+   "pos": "center"
+  },
+  {
+   "content": "NOW!",
+   "at": 22.65,
+   "until": 23.55,
+   "style": "big",
+   "pos": "center"
+  },
+  {
+   "content": "GOA ANIMAL LIBERATION MARCH",
+   "at": 23.6,
+   "until": 25.85,
+   "style": "tag",
+   "pos": "top"
+  },
+  {
+   "content": "5 DECEMBER 2026 · PANAJI",
+   "at": 23.75,
+   "until": 25.85,
+   "style": "subtitle",
+   "pos": "bottom"
+  }
+ ],
+ "endcard": {
+  "lines": [
+   "GOA ANIMAL LIBERATION MARCH",
+   "5 December 2026 · Panaji, Goa",
+   "Liberation is for all.",
+   "@goaalm"
+  ],
+  "at": 25.875,
+  "until": 30.0
+ },
+ "captions": null,
+ "vo": [],
+ "music": {
+  "src": "inbox/epic music.mp3",
+  "from": 41.0,
+  "at": 0.0,
+  "fade_in": 0.3,
+  "fade_out": 2.0,
+  "path": "D:\\AI video editor\\hyperframes\\inbox\\epic music.mp3",
+  "until": 30.0
+ },
+ "sfx": [
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\riser.wav",
+   "at": 18.99,
+   "gain_db": -7.0,
+   "align": "end"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\epic_hit.wav",
+   "at": 18.99,
+   "gain_db": -1.5,
+   "align": "onset"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\media\\chant.wav",
+   "at": 19.0,
+   "gain_db": 3.0,
+   "align": "onset"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\whoosh.wav",
+   "at": 25.6,
+   "gain_db": -12.0,
+   "align": "onset"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\hit.wav",
+   "at": 26.05,
+   "gain_db": -14.0,
+   "align": "onset"
+  }
+ ],
+ "loudness": {
+  "I": -13.9,
+  "LRA": 5.1,
+  "TP": -2.4
+ },
+ "safe_zone": {
+  "top": 220,
+  "bottom": 400,
+  "right": 120,
+  "left": 60
+ },
+ "fonts": [
+  "Anton",
+  "Montserrat",
+  "Playfair Display"
+ ],
+ "glyphs": [
+  {
+   "text": "THEY CAN'T SPEAK.",
+   "font": "Anton",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\anton\\Anton-Regular.ttf"
+  },
+  {
+   "text": "BUT THEY FEEL EVERYTHING.",
+   "font": "Anton",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\anton\\Anton-Regular.ttf"
+  },
+  {
+   "text": "THE FEAR. THE PAIN.",
+   "font": "Anton",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\anton\\Anton-Regular.ttf"
+  },
+  {
+   "text": "EVERY. SINGLE. DAY.",
+   "font": "Anton",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\anton\\Anton-Regular.ttf"
+  },
+  {
+   "text": "This time, we speak for them.",
+   "font": "Playfair Display",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\playfairdisplay\\PlayfairDisplay-Italic[wght].ttf"
+  },
+  {
+   "text": "WALK WITH US",
+   "font": "Anton",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\anton\\Anton-Regular.ttf"
+  },
+  {
+   "text": "NOW!",
+   "font": "Anton",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\anton\\Anton-Regular.ttf"
+  },
+  {
+   "text": "GOA ANIMAL LIBERATION MARCH",
+   "font": "Montserrat",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\montserrat\\Montserrat[wght].ttf"
+  },
+  {
+   "text": "5 DECEMBER 2026 · PANAJI",
+   "font": "Montserrat",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\montserrat\\Montserrat[wght].ttf"
+  },
+  {
+   "text": "GOA ANIMAL LIBERATION MARCH",
+   "font": "Anton",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\anton\\Anton-Regular.ttf"
+  },
+  {
+   "text": "5 December 2026 · Panaji, Goa",
+   "font": "Montserrat",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\montserrat\\Montserrat[wght].ttf"
+  },
+  {
+   "text": "Liberation is for all.",
+   "font": "Montserrat",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\montserrat\\Montserrat[wght].ttf"
+  },
+  {
+   "text": "@goaalm",
+   "font": "Montserrat",
+   "file": "D:\\AI video editor\\hyperframes\\library\\fonts\\montserrat\\Montserrat[wght].ttf"
+  }
+ ],
+ "models": [
+  "rife"
+ ],
+ "assets": [
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\pexels\\27875229.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\inbox\\animal liberation march.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\inbox\\animal liberation march.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\pexels\\11347984.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\52651131.webm"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\stock\\commons\\147566978.webm"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\inbox\\animal liberation march.mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\media\\up\\cage.png"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\media\\up\\banner9.png"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\media\\up\\banner4.png"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\inbox\\goamarch photots\\Goa Animal Liberation March held on 27th December 2025 in Panjim Goa India (1).mp4"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\media\\up\\walk11.png"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\media\\up\\faces1.png"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\inbox\\epic music.mp3"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\riser.wav"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\epic_hit.wav"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\media\\chant.wav"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\whoosh.wav"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\sfx\\synth\\hit.wav"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\luts\\bw_contrast.cube"
+  },
+  {
+   "path": "D:\\AI video editor\\hyperframes\\library\\luts\\warm_film.cube"
+  }
+ ],
+ "unconfirmed_facts": [
+  "handle @goaalm",
+  "logo file (none yet)",
+  "Marathi/Hindi names above",
+  "Marathi/Hindi end-card wording (end_card_mr / end_card_hi)"
+ ],
+ "warnings": [
+  "end card uses brand facts still to confirm: handle @goaalm; logo file (none yet); Marathi/Hindi names above; Marathi/Hindi end-card wording (end_card_mr / end_card_hi)"
+ ],
+ "brand": "goaalm",
+ "caption_post": "They can't speak. This time, we speak for them.\n\nGoa Animal Liberation March · 5 December 2026 · Panaji, Goa.\nWalk with us. 🐾",
+ "hashtags": [
+  "#GoaALM",
+  "#AnimalLiberation",
+  "#Goa",
+  "#Panaji",
+  "#GoVegan",
+  "#VeganIndia"
+ ],
+ "build_seconds": 134.9,
+ "render": {
+  "file": "D:\\AI video editor\\hyperframes\\projects\\goaalm-2026-promo\\renders\\draft.mp4",
+  "seconds": 49.6
+ }
+}

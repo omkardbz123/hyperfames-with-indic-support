@@ -1,0 +1,654 @@
+[
+ {
+  "id": "d5f5757b_b-roll",
+  "file": "library\\music\\incompetech\\B-Roll.mp3",
+  "title": "B-Roll",
+  "author": "Kevin MacLeod",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://incompetech.com",
+  "credit": "\"B-Roll\" Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/",
+  "duration": 84.088,
+  "bpm": 89.99,
+  "beat_grid_reliable": true,
+  "key": "E major",
+  "loudness_lufs": -18.2,
+  "tags": [
+   "comedy quirky",
+   "rock",
+   "uplifting corporate",
+   "children's playful",
+   "jazz"
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 0.995,
+    "role": "break"
+   },
+   {
+    "start": 0.995,
+    "end": 9.006,
+    "role": "mid"
+   },
+   {
+    "start": 9.006,
+    "end": 30.338,
+    "role": "mid"
+   },
+   {
+    "start": 30.338,
+    "end": 43.68,
+    "role": "high"
+   },
+   {
+    "start": 43.68,
+    "end": 51.668,
+    "role": "mid"
+   },
+   {
+    "start": 51.668,
+    "end": 57.005,
+    "role": "mid"
+   },
+   {
+    "start": 57.005,
+    "end": 62.338,
+    "role": "mid"
+   },
+   {
+    "start": 62.338,
+    "end": 69.1,
+    "role": "high"
+   },
+   {
+    "start": 69.1,
+    "end": 80.546,
+    "role": "mid"
+   },
+   {
+    "start": 80.546,
+    "end": 84.088,
+    "role": "break"
+   }
+  ],
+  "drops": [],
+  "energy_profile": [
+   0.0,
+   0.06,
+   0.15,
+   0.1,
+   0.16,
+   0.21,
+   0.12,
+   0.2,
+   0.03,
+   0.65,
+   0.08,
+   0.0
+  ]
+ },
+ {
+  "id": "d3d387bd_club-diver",
+  "file": "library\\music\\incompetech\\Club Diver.mp3",
+  "title": "Club Diver",
+  "author": "Kevin MacLeod",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://incompetech.com",
+  "credit": "\"Club Diver\" Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/",
+  "duration": 145.685,
+  "bpm": 140.0,
+  "beat_grid_reliable": true,
+  "key": "G major",
+  "loudness_lufs": -10.8,
+  "tags": [
+   "aggressive phonk",
+   "synthwave retro",
+   "dark electronic",
+   "EDM drop",
+   "rock"
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 3.45,
+    "role": "intro"
+   },
+   {
+    "start": 3.45,
+    "end": 30.885,
+    "role": "mid"
+   },
+   {
+    "start": 30.885,
+    "end": 58.3,
+    "role": "high"
+   },
+   {
+    "start": 58.3,
+    "end": 85.766,
+    "role": "mid"
+   },
+   {
+    "start": 85.766,
+    "end": 113.194,
+    "role": "high"
+   },
+   {
+    "start": 113.194,
+    "end": 143.768,
+    "role": "mid"
+   },
+   {
+    "start": 143.768,
+    "end": 145.685,
+    "role": "break"
+   }
+  ],
+  "drops": [
+   3.45
+  ],
+  "energy_profile": [
+   0.27,
+   0.69,
+   0.26,
+   0.63,
+   0.73,
+   0.41,
+   0.5,
+   0.83,
+   0.7,
+   0.46,
+   0.63,
+   0.0
+  ]
+ },
+ {
+  "id": "29344d09_d8cc2b6f-c332-4ef5-84c1-094b8e07ee10",
+  "file": "library\\stock\\openverse\\d8cc2b6f-c332-4ef5-84c1-094b8e07ee10.mp3",
+  "title": "Dhol_Tasha_Maharashtra_Urban_1",
+  "author": "prospekt42",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://freesound.org/people/prospekt42/sounds/712285",
+  "credit": "\"Dhol_Tasha_Maharashtra_Urban_1\" by prospekt42, CC0 (https://freesound.org/people/prospekt42/sounds/712285)",
+  "duration": 135.127,
+  "bpm": 159.85,
+  "beat_grid_reliable": false,
+  "key": "C# minor",
+  "loudness_lufs": -12.7,
+  "tags": [
+   "dhol festive Indian percussion",
+   "Marathi folk lavani",
+   "Bollywood romantic",
+   "classical Indian raga",
+   "rock"
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.916,
+    "role": "intro"
+   },
+   {
+    "start": 5.916,
+    "end": 11.35,
+    "role": "low"
+   },
+   {
+    "start": 11.35,
+    "end": 17.661,
+    "role": "low"
+   },
+   {
+    "start": 17.661,
+    "end": 22.657,
+    "role": "low"
+   },
+   {
+    "start": 22.657,
+    "end": 30.327,
+    "role": "low"
+   },
+   {
+    "start": 30.327,
+    "end": 37.8,
+    "role": "high"
+   },
+   {
+    "start": 37.8,
+    "end": 48.425,
+    "role": "high"
+   },
+   {
+    "start": 48.425,
+    "end": 52.9,
+    "role": "high"
+   },
+   {
+    "start": 52.9,
+    "end": 57.082,
+    "role": "low"
+   },
+   {
+    "start": 57.082,
+    "end": 103.151,
+    "role": "low"
+   },
+   {
+    "start": 103.151,
+    "end": 113.709,
+    "role": "low"
+   },
+   {
+    "start": 113.709,
+    "end": 118.44,
+    "role": "low"
+   },
+   {
+    "start": 118.44,
+    "end": 123.6,
+    "role": "mid"
+   },
+   {
+    "start": 123.6,
+    "end": 127.644,
+    "role": "low"
+   },
+   {
+    "start": 127.644,
+    "end": 135.127,
+    "role": "high"
+   }
+  ],
+  "drops": [
+   11.369,
+   30.288,
+   118.39,
+   127.58
+  ],
+  "energy_profile": [
+   0.0,
+   0.1,
+   0.1,
+   0.22,
+   0.09,
+   0.02,
+   0.05,
+   0.02,
+   0.03,
+   0.08,
+   0.01,
+   0.02
+  ]
+ },
+ {
+  "id": "e395d610_e68fc3fc-675c-4ede-884c-a0be295bb35b",
+  "file": "library\\stock\\openverse\\e68fc3fc-675c-4ede-884c-a0be295bb35b.mp3",
+  "title": "Dhol_Tasha_Maharashtra_Urban_2",
+  "author": "prospekt42",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://freesound.org/people/prospekt42/sounds/712286",
+  "credit": "\"Dhol_Tasha_Maharashtra_Urban_2\" by prospekt42, CC0 (https://freesound.org/people/prospekt42/sounds/712286)",
+  "duration": 413.31,
+  "bpm": 196.75,
+  "beat_grid_reliable": false,
+  "key": "C# minor",
+  "loudness_lufs": -19.2,
+  "tags": [
+   "dhol festive Indian percussion",
+   "Marathi folk lavani",
+   "Bollywood romantic",
+   "rock",
+   "aggressive phonk"
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 4.043,
+    "role": "intro"
+   },
+   {
+    "start": 4.043,
+    "end": 10.768,
+    "role": "mid"
+   },
+   {
+    "start": 10.768,
+    "end": 16.571,
+    "role": "high"
+   },
+   {
+    "start": 16.571,
+    "end": 21.52,
+    "role": "low"
+   },
+   {
+    "start": 21.52,
+    "end": 26.94,
+    "role": "high"
+   },
+   {
+    "start": 26.94,
+    "end": 32.476,
+    "role": "low"
+   },
+   {
+    "start": 32.476,
+    "end": 37.12,
+    "role": "high"
+   },
+   {
+    "start": 37.12,
+    "end": 44.967,
+    "role": "mid"
+   },
+   {
+    "start": 44.967,
+    "end": 51.9,
+    "role": "low"
+   },
+   {
+    "start": 51.9,
+    "end": 68.24,
+    "role": "high"
+   },
+   {
+    "start": 68.24,
+    "end": 73.091,
+    "role": "low"
+   },
+   {
+    "start": 73.091,
+    "end": 92.891,
+    "role": "mid"
+   },
+   {
+    "start": 92.891,
+    "end": 109.109,
+    "role": "mid"
+   },
+   {
+    "start": 109.109,
+    "end": 115.237,
+    "role": "low"
+   },
+   {
+    "start": 115.237,
+    "end": 120.058,
+    "role": "low"
+   },
+   {
+    "start": 120.058,
+    "end": 145.04,
+    "role": "mid"
+   },
+   {
+    "start": 145.04,
+    "end": 152.04,
+    "role": "low"
+   },
+   {
+    "start": 152.04,
+    "end": 157.415,
+    "role": "mid"
+   },
+   {
+    "start": 157.415,
+    "end": 165.24,
+    "role": "mid"
+   },
+   {
+    "start": 165.24,
+    "end": 170.495,
+    "role": "mid"
+   },
+   {
+    "start": 170.495,
+    "end": 177.078,
+    "role": "mid"
+   },
+   {
+    "start": 177.078,
+    "end": 182.544,
+    "role": "low"
+   },
+   {
+    "start": 182.544,
+    "end": 203.94,
+    "role": "mid"
+   },
+   {
+    "start": 203.94,
+    "end": 208.3,
+    "role": "low"
+   },
+   {
+    "start": 208.3,
+    "end": 226.815,
+    "role": "low"
+   },
+   {
+    "start": 226.815,
+    "end": 231.201,
+    "role": "low"
+   },
+   {
+    "start": 231.201,
+    "end": 247.739,
+    "role": "low"
+   },
+   {
+    "start": 247.739,
+    "end": 258.26,
+    "role": "high"
+   },
+   {
+    "start": 258.26,
+    "end": 262.96,
+    "role": "high"
+   },
+   {
+    "start": 262.96,
+    "end": 271.729,
+    "role": "high"
+   },
+   {
+    "start": 271.729,
+    "end": 277.98,
+    "role": "low"
+   },
+   {
+    "start": 277.98,
+    "end": 309.32,
+    "role": "high"
+   },
+   {
+    "start": 309.32,
+    "end": 315.003,
+    "role": "high"
+   },
+   {
+    "start": 315.003,
+    "end": 321.9,
+    "role": "high"
+   },
+   {
+    "start": 321.9,
+    "end": 329.069,
+    "role": "high"
+   },
+   {
+    "start": 329.069,
+    "end": 333.12,
+    "role": "low"
+   },
+   {
+    "start": 333.12,
+    "end": 339.086,
+    "role": "low"
+   },
+   {
+    "start": 339.086,
+    "end": 346.72,
+    "role": "high"
+   },
+   {
+    "start": 346.72,
+    "end": 354.54,
+    "role": "mid"
+   },
+   {
+    "start": 354.54,
+    "end": 362.92,
+    "role": "low"
+   },
+   {
+    "start": 362.92,
+    "end": 368.642,
+    "role": "mid"
+   },
+   {
+    "start": 368.642,
+    "end": 374.12,
+    "role": "high"
+   },
+   {
+    "start": 374.12,
+    "end": 380.04,
+    "role": "mid"
+   },
+   {
+    "start": 380.04,
+    "end": 390.26,
+    "role": "low"
+   },
+   {
+    "start": 390.26,
+    "end": 405.24,
+    "role": "mid"
+   },
+   {
+    "start": 405.24,
+    "end": 409.4,
+    "role": "low"
+   },
+   {
+    "start": 409.4,
+    "end": 413.31,
+    "role": "outro"
+   }
+  ],
+  "drops": [
+   10.722,
+   21.979,
+   32.783,
+   51.937,
+   73.172,
+   93.378,
+   119.982,
+   152.042,
+   182.905,
+   248.207,
+   277.98
+  ],
+  "energy_profile": [
+   0.01,
+   0.3,
+   0.13,
+   0.04,
+   0.08,
+   0.1,
+   0.02,
+   0.26,
+   0.09,
+   0.06,
+   0.06,
+   0.0
+  ]
+ },
+ {
+  "id": "92ff59a8_go-cart-drop-mix",
+  "file": "library\\music\\incompetech\\Go Cart - Drop Mix.mp3",
+  "title": "Go Cart - Drop Mix",
+  "author": "Kevin MacLeod",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://incompetech.com",
+  "credit": "\"Go Cart - Drop Mix\" Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/",
+  "duration": 131.553,
+  "bpm": 115.0,
+  "beat_grid_reliable": true,
+  "key": "A major",
+  "loudness_lufs": -7.4,
+  "tags": [
+   "aggressive phonk",
+   "EDM drop",
+   "dark electronic",
+   "trap",
+   "drift phonk"
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 4.2,
+    "role": "mid"
+   },
+   {
+    "start": 4.2,
+    "end": 32.895,
+    "role": "high"
+   },
+   {
+    "start": 32.895,
+    "end": 64.2,
+    "role": "mid"
+   },
+   {
+    "start": 64.2,
+    "end": 68.9,
+    "role": "mid"
+   },
+   {
+    "start": 68.9,
+    "end": 75.68,
+    "role": "low"
+   },
+   {
+    "start": 75.68,
+    "end": 124.77,
+    "role": "high"
+   },
+   {
+    "start": 124.77,
+    "end": 129.671,
+    "role": "low"
+   },
+   {
+    "start": 129.671,
+    "end": 131.553,
+    "role": "break"
+   }
+  ],
+  "drops": [
+   4.194,
+   76.196
+  ],
+  "energy_profile": [
+   0.0,
+   0.71,
+   0.48,
+   0.72,
+   0.57,
+   0.72,
+   0.26,
+   0.5,
+   0.43,
+   0.68,
+   0.58,
+   0.0
+  ]
+ }
+]

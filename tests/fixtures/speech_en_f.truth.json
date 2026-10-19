@@ -1,0 +1,134 @@
+{
+ "language": "en",
+ "voice": "en-IN-NeerjaExpressiveNeural",
+ "text": "The Goa Animal Liberation March will take place this Sunday in Panaji. Please treat the dogs and cows living on our city streets with kindness.",
+ "words": [
+  {
+   "text": "The",
+   "start": 0.1,
+   "end": 0.225
+  },
+  {
+   "text": "Goa",
+   "start": 0.237,
+   "end": 0.637
+  },
+  {
+   "text": "Animal",
+   "start": 0.65,
+   "end": 1.062
+  },
+  {
+   "text": "Liberation",
+   "start": 1.075,
+   "end": 1.712
+  },
+  {
+   "text": "March",
+   "start": 1.725,
+   "end": 2.075
+  },
+  {
+   "text": "will",
+   "start": 2.087,
+   "end": 2.275
+  },
+  {
+   "text": "take",
+   "start": 2.288,
+   "end": 2.562
+  },
+  {
+   "text": "place",
+   "start": 2.575,
+   "end": 2.938
+  },
+  {
+   "text": "this",
+   "start": 2.95,
+   "end": 3.138
+  },
+  {
+   "text": "Sunday",
+   "start": 3.15,
+   "end": 3.625
+  },
+  {
+   "text": "in",
+   "start": 3.638,
+   "end": 3.8
+  },
+  {
+   "text": "Panaji",
+   "start": 3.812,
+   "end": 4.35
+  },
+  {
+   "text": "Please",
+   "start": 5.25,
+   "end": 5.562
+  },
+  {
+   "text": "treat",
+   "start": 5.575,
+   "end": 5.9
+  },
+  {
+   "text": "the",
+   "start": 5.912,
+   "end": 6.012
+  },
+  {
+   "text": "dogs",
+   "start": 6.025,
+   "end": 6.525
+  },
+  {
+   "text": "and",
+   "start": 6.537,
+   "end": 6.75
+  },
+  {
+   "text": "cows",
+   "start": 6.763,
+   "end": 7.1
+  },
+  {
+   "text": "living",
+   "start": 7.112,
+   "end": 7.425
+  },
+  {
+   "text": "on",
+   "start": 7.438,
+   "end": 7.575
+  },
+  {
+   "text": "our",
+   "start": 7.588,
+   "end": 7.75
+  },
+  {
+   "text": "city",
+   "start": 7.763,
+   "end": 8.088
+  },
+  {
+   "text": "streets",
+   "start": 8.1,
+   "end": 8.575
+  },
+  {
+   "text": "with",
+   "start": 8.588,
+   "end": 8.763
+  },
+  {
+   "text": "kindness",
+   "start": 8.775,
+   "end": 9.438
+  }
+ ],
+ "duration": 10.344,
+ "timing_source": "edge-tts WordBoundary"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ai-video-studio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Free, general-purpose AI video-editing studio built on HyperFrames",
+  "scripts": {
+    "hf": "hyperframes"
+  },
+  "devDependencies": {
+    "hyperframes": "0.8.172"
+  }
+}

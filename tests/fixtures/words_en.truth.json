@@ -1,0 +1,134 @@
+{
+ "language": "en",
+ "voice": "en-IN-NeerjaExpressiveNeural",
+ "text": "The Goa Animal Liberation March will take place this Sunday in Panaji. Please treat the dogs and cows living on our city streets with kindness.",
+ "words": [
+  {
+   "text": "The",
+   "start": 0.3,
+   "end": 0.66
+  },
+  {
+   "text": "Goa",
+   "start": 0.8487,
+   "end": 1.4888
+  },
+  {
+   "text": "Animal",
+   "start": 1.6948,
+   "end": 2.2998
+  },
+  {
+   "text": "Liberation",
+   "start": 2.3953,
+   "end": 3.1953
+  },
+  {
+   "text": "March",
+   "start": 3.3672,
+   "end": 3.8672
+  },
+  {
+   "text": "will",
+   "start": 4.0336,
+   "end": 4.5736
+  },
+  {
+   "text": "take",
+   "start": 4.8017,
+   "end": 5.2117
+  },
+  {
+   "text": "place",
+   "start": 5.3531,
+   "end": 5.8581
+  },
+  {
+   "text": "this",
+   "start": 6.0397,
+   "end": 6.4747
+  },
+  {
+   "text": "Sunday",
+   "start": 6.5648,
+   "end": 7.2248
+  },
+  {
+   "text": "in",
+   "start": 7.3707,
+   "end": 7.7307
+  },
+  {
+   "text": "Panaji.",
+   "start": 7.8656,
+   "end": 8.3156
+  },
+  {
+   "text": "Please",
+   "start": 8.4211,
+   "end": 8.9411
+  },
+  {
+   "text": "treat",
+   "start": 9.1598,
+   "end": 9.6348
+  },
+  {
+   "text": "the",
+   "start": 9.7793,
+   "end": 10.1393
+  },
+  {
+   "text": "dogs",
+   "start": 10.3857,
+   "end": 11.0007
+  },
+  {
+   "text": "and",
+   "start": 11.1809,
+   "end": 11.7209
+  },
+  {
+   "text": "cows",
+   "start": 11.9037,
+   "end": 12.4187
+  },
+  {
+   "text": "living",
+   "start": 12.6072,
+   "end": 13.1972
+  },
+  {
+   "text": "on",
+   "start": 13.3921,
+   "end": 13.8521
+  },
+  {
+   "text": "our",
+   "start": 13.9577,
+   "end": 14.3377
+  },
+  {
+   "text": "city",
+   "start": 14.4926,
+   "end": 15.0526
+  },
+  {
+   "text": "streets",
+   "start": 15.1732,
+   "end": 15.8382
+  },
+  {
+   "text": "with",
+   "start": 15.9866,
+   "end": 16.5066
+  },
+  {
+   "text": "kindness.",
+   "start": 16.6031,
+   "end": 17.2131
+  }
+ ],
+ "duration": 17.758,
+ "timing_source": "exact (concatenated words)"
+}

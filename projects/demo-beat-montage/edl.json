@@ -1,0 +1,46 @@
+{
+  "title": "Cold Steel (beat-sync demo)",
+  "recipe": "beat-sync",
+  "format": "reels",
+  "duration": 18.0,
+  "grade": "bw_contrast",
+  "music": {"src": "library/music/incompetech/Go Cart - Drop Mix.mp3", "from": 68.0, "at": 0.0, "fade_in": 0.05, "fade_out": 1.2,
+            "rides": [{"from": 7.75, "to": 8.17, "db": -26}]},
+  "clips": [
+    {"id": "c01", "src": "tests/fixtures/footage/tos_60-180.mp4", "in": 10.2, "at": 0.0, "fx": [{"type": "push_in", "to": 1.12}]},
+    {"id": "c02", "src": "tests/fixtures/footage/tos_60-180.mp4", "in": 25.2, "at": 2.98, "snap": {"to": "downbeat"},
+     "transition": {"type": "glitch", "dur": 0.4}},
+    {"id": "c03", "src": "tests/fixtures/footage/tos_60-180.mp4", "in": 22.3, "at": 5.07, "snap": {"to": "downbeat"},
+     "crop": {"x": 0.5}, "ramp": [{"dur": 0.6, "speed": 1.0}, {"dur": 1.2, "speed": 0.25, "rife": true}, {"speed": 1.0}]},
+    {"id": "c04", "src": "tests/fixtures/footage/tos_60-180.mp4", "in": 32.6, "at": 7.14, "snap": {"to": "downbeat"},
+     "crop": {"x": 0.55}, "fx": [{"type": "push_in", "to": 1.15}]},
+    {"id": "c05", "src": "tests/fixtures/footage/tos_60-180.mp4", "in": 86.2, "at": 8.2, "snap": {"to": "drop", "tol": 0.1},
+     "crop": {"x": 0.35}, "transition": {"type": "flash", "dur": 0.35},
+     "fx": [{"type": "zoom_punch", "at": 8.196, "amount": 1.2, "dur": 0.4}, {"type": "shake", "at": 8.196, "dur": 0.35, "amount": 22}]},
+    {"id": "c06", "src": "tests/fixtures/footage/tos_60-180.mp4", "in": 93.2, "at": 9.24, "snap": {"to": "downbeat"}},
+    {"id": "c07", "src": "tests/fixtures/footage/tos_60-180.mp4", "in": 109.0, "at": 10.28, "snap": {"to": "beat"}, "crop": {"x": 0.62},
+     "fx": [{"type": "zoom_punch", "at": 10.28, "amount": 1.1, "dur": 0.25}]},
+    {"id": "c08", "src": "tests/fixtures/footage/tos_60-180.mp4", "in": 48.0, "at": 11.34, "snap": {"to": "downbeat"}, "crop": {"x": 0.5}},
+    {"id": "c09", "src": "tests/fixtures/footage/tos_60-180.mp4", "in": 60.5, "at": 12.38, "snap": {"to": "beat"}, "crop": {"x": 0.28},
+     "fx": [{"type": "zoom_punch", "at": 12.38, "amount": 1.1, "dur": 0.25}]},
+    {"id": "c10", "src": "tests/fixtures/footage/tos_60-180.mp4", "in": 83.4, "at": 13.44, "snap": {"to": "downbeat"}, "crop": {"x": 0.3}},
+    {"id": "c11", "src": "tests/fixtures/footage/tos_60-180.mp4", "in": 113.0, "at": 14.46, "snap": {"to": "beat"}, "crop": {"x": 0.55},
+     "transition": {"type": "chromatic-split", "dur": 0.35}},
+    {"id": "c12", "src": "tests/fixtures/footage/tos_60-180.mp4", "in": 80.3, "at": 15.52, "snap": {"to": "downbeat"}, "crop": {"x": 0.62},
+     "transition": {"type": "flash", "dur": 0.25},
+     "ramp": [{"dur": 0.4, "speed": 1.0}, {"speed": 0.3, "rife": true}]}
+  ],
+  "text": [
+    {"content": "COLD STEEL", "at": 0.45, "until": 2.85, "style": "title", "anim": "slam", "pos": "center"},
+    {"content": "NO FEAR", "at": 8.25, "until": 9.2, "style": "big", "anim": "slam", "pos": "center"},
+    {"content": "STEEL.", "at": 16.1, "until": 18.0, "style": "big", "anim": "pop", "pos": "center", "out": "fade"}
+  ],
+  "sfx": [
+    {"name": "swish", "at": 2.98, "gain_db": -8},
+    {"name": "riser", "at": 8.196, "gain_db": -5},
+    {"name": "boom", "at": 8.196, "gain_db": 0},
+    {"name": "impact", "at": 15.52, "gain_db": -6}
+  ],
+  "caption_post": "Cold steel. A beat-sync edit test: every cut on the beat, slow motion by RIFE, cut together by a free, local AI video studio.",
+  "hashtags": ["#beatsync", "#edit", "#tearsofsteel", "#blender"]
+}

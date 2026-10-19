@@ -1,0 +1,62 @@
+{
+  "id": "veganbawaal",
+  "name": "Vegan Bawaal",
+  "name_hi": "वीगन बवाल",
+  "handle": "@veganbawaal",
+  "tagline": "Memes with a mission.",
+  "tagline_hi": "हँसो, सोचो, बदलो।",
+  "colors": {
+    "accent": "#B8F53A",
+    "accent2": "#FF4F9A",
+    "paper": "#FFF8EC",
+    "ink": "#121212",
+    "accent_dim": "#7FB51E"
+  },
+  "fonts": {
+    "display": "Anton",
+    "body": "Poppins",
+    "serif_italic": "Playfair Display Italic",
+    "devanagari_display": "Baloo 2",
+    "devanagari_body": "Mukta"
+  },
+  "caption": {
+    "style": "pop",
+    "font": "Baloo 2",
+    "fg": "#FFF8EC",
+    "accent": "#B8F53A"
+  },
+  "grades": {
+    "default": "none",
+    "serious": "bw_contrast",
+    "warm": "warm_film"
+  },
+  "logo": null,
+  "end_card": {
+    "lines": [
+      "{name}",
+      "{tagline}",
+      "{handle}"
+    ]
+  },
+  "end_card_hi": {
+    "lines": [
+      "{name_hi}",
+      "{tagline_hi}",
+      "{handle}"
+    ]
+  },
+  "safe_zone_reels": {
+    "top": 220,
+    "bottom": 400,
+    "right": 120,
+    "left": 60
+  },
+  "voice": "Hinglish, funny but kind; jokes hit industries and myths, never people or communities. Every post ends with one easy action.",
+  "source": "Proposed by Claude on 2026-10-19 for the user's new Instagram account; everything below is to confirm",
+  "to_confirm": [
+    "handle @veganbawaal (check availability)",
+    "colours (lime #B8F53A + pink #FF4F9A on ink/cream)",
+    "Hindi tagline wording",
+    "logo file (none yet)"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "l03",
+ "key": "13f101b32785",
+ "text": "प्रत्येक जीवाला मुक्तपणे जगण्याचा हक्क आहे.",
+ "lang": "mr",
+ "voice": "mr-IN-AarohiNeural",
+ "rate": "-4%",
+ "pitch": "+0Hz",
+ "duration": 3.29,
+ "words": [
+  {
+   "text": "प्रत्येक",
+   "start": 0.0,
+   "end": 0.475,
+   "conf": 0.763
+  },
+  {
+   "text": "जीवाला",
+   "start": 0.51,
+   "end": 1.055,
+   "conf": 0.933
+  },
+  {
+   "text": "मुक्तपणे",
+   "start": 1.11,
+   "end": 1.755,
+   "conf": 0.965
+  },
+  {
+   "text": "जगण्याचा",
+   "start": 1.83,
+   "end": 2.475,
+   "conf": 0.91
+  },
+  {
+   "text": "हक्क",
+   "start": 2.53,
+   "end": 2.855,
+   "conf": 0.978
+  },
+  {
+   "text": "आहे.",
+   "start": 2.91,
+   "end": 3.075,
+   "conf": 0.963
+  }
+ ],
+ "engine": "edge-tts",
+ "timing": "mms-align on the generated audio"
+}

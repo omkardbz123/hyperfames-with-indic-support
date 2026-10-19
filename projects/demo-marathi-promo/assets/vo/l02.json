@@ -1,0 +1,62 @@
+{
+ "id": "l02",
+ "key": "9e6a64d2fd56",
+ "text": "पिंजऱ्यातली कोंबडी, रस्त्यावरचा कुत्रा, प्रत्येक गाय, प्रत्येक बकरी.",
+ "lang": "mr",
+ "voice": "mr-IN-AarohiNeural",
+ "rate": "-4%",
+ "pitch": "+0Hz",
+ "duration": 5.72,
+ "words": [
+  {
+   "text": "पिंजऱ्यातली",
+   "start": 0.0,
+   "end": 0.635,
+   "conf": 0.291
+  },
+  {
+   "text": "कोंबडी,",
+   "start": 0.67,
+   "end": 1.435,
+   "conf": 0.989
+  },
+  {
+   "text": "रस्त्यावरचा",
+   "start": 1.69,
+   "end": 2.575,
+   "conf": 0.91
+  },
+  {
+   "text": "कुत्रा,",
+   "start": 2.63,
+   "end": 3.235,
+   "conf": 0.922
+  },
+  {
+   "text": "प्रत्येक",
+   "start": 3.47,
+   "end": 3.975,
+   "conf": 0.992
+  },
+  {
+   "text": "गाय,",
+   "start": 4.03,
+   "end": 4.495,
+   "conf": 0.905
+  },
+  {
+   "text": "प्रत्येक",
+   "start": 4.73,
+   "end": 5.175,
+   "conf": 0.999
+  },
+  {
+   "text": "बकरी.",
+   "start": 5.23,
+   "end": 5.575,
+   "conf": 0.891
+  }
+ ],
+ "engine": "edge-tts",
+ "timing": "mms-align on the generated audio"
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Mukta"; src: url("assets/fonts/Mukta-ExtraBold.ttf") format("truetype"); font-weight: 800; font-style: normal; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #000000; }
+      #root { width: 1080px; height: 1920px; position: relative; overflow: hidden; background-color: #000000; }
+      .scene { position: absolute; inset: 0; width: 1080px; height: 1920px; overflow: hidden; }
+      .fx, .kb { position: absolute; inset: 0; width: 100%; height: 100%; }
+      .media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+      .txt { position: absolute; display: flex; align-items: center; z-index: 110; pointer-events: none; }
+      .txt .w { display: inline-block; }
+      .ec { z-index: 130; }
+      .ovl { position: absolute; inset: 0; opacity: 0; z-index: 100; pointer-events: none; }
+      .scrim { position: absolute; left: 0; right: 0; z-index: 105; pointer-events: none; }
+      #captions-host { position: absolute; inset: 0; z-index: 115; }
+      
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="26.04" data-width="1080" data-height="1920">
+      <div id="s0" class="scene"><div id="fx0" class="fx"><div id="kb0" class="kb"><video id="v0" class="clip media" src="assets/clips/c01_a09f684b7e.mp4" muted playsinline data-start="-0.0005" data-duration="5.2677" data-track-index="1"></video></div></div></div>
+      <div id="s1" class="scene"><div id="fx1" class="fx"><div id="kb1" class="kb"><video id="v1" class="clip media" src="assets/clips/c02_08e8789c57.mp4" muted playsinline data-start="5.2662" data-duration="5.8343" data-track-index="2"></video></div></div></div>
+      <div id="s2" class="scene"><div id="fx2" class="fx"><div id="kb2" class="kb"><video id="v2" class="clip media" src="assets/clips/c03_e769dacc7a.mp4" muted playsinline data-start="11.0995" data-duration="2.9677" data-track-index="3"></video></div></div></div>
+      <div id="s3" class="scene"><div id="fx3" class="fx"><div id="kb3" class="kb"><video id="v3" class="clip media" src="assets/clips/c04_7016bc0601.mp4" muted playsinline data-start="14.0662" data-duration="3.5343" data-track-index="4"></video></div></div></div>
+      <div id="s4" class="scene"><div id="fx4" class="fx"><div id="kb4" class="kb"><video id="v4" class="clip media" src="assets/clips/c05_f23cd65e6d.mp4" muted playsinline data-start="17.5995" data-duration="3.4677" data-track-index="5"></video></div></div></div>
+      <div id="s5" class="scene"><div id="fx5" class="fx"><div id="kb5" class="kb"><video id="v5" class="clip media" src="assets/clips/c06_9affd62a79.mp4" muted playsinline data-start="21.0662" data-duration="1.2676" data-track-index="6"></video></div></div></div>
+      <div id="s6" class="scene"><div id="fx6" class="fx"><div id="kb6" class="kb"><video id="v6" class="clip media" src="assets/clips/c07_62b470a377.mp4" muted playsinline data-start="22.3328" data-duration="3.701" data-track-index="7"></video></div></div></div>
+      <div class="scrim" style="bottom: 0; height: 1114px; background: linear-gradient(to top, rgba(0,0,0,0.66), rgba(0,0,0,0.5) 62%, rgba(0,0,0,0))"></div>
+      <div class="scrim" style="top: 0; height: 538px; background: linear-gradient(to bottom, rgba(0,0,0,0.66), rgba(0,0,0,0.42) 55%, rgba(0,0,0,0))"></div>
+      <div id="tx0" class="clip txt" style="left: 80px; right: 140px; top: 260px; justify-content: center; text-align: center" data-start="0.2" data-duration="3.1" data-track-index="8"><span class="tx-in" style="display: block; font-family: &quot;Mukta&quot;, sans-serif; font-weight: 800; font-size: 54px; line-height: 1.3; color: #F4F0E8; letter-spacing: 0em; background: #FFB830; color: #0C0C0E; padding: 10px 26px; border-radius: 8px;"><span class="w">Petrol</span> <span class="w">भरवाने</span> <span class="w">गए</span> <span class="w">थे…</span> <span class="w">detain</span> <span class="w">हो</span> <span class="w">गए!</span></span></div>
+      <div id="captions-host" class="clip" data-track-kind="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="26.04" data-track-index="209" data-width="1080" data-height="1920"></div>
+      <audio id="mix" src="assets/audio/mix.wav" data-start="0" data-duration="26.04" data-track-index="110" data-volume="1"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+      tl.set("#fx0", {scale: 1.12}, 0.35);
+      tl.to("#fx0", {scale: 1, duration: 0.35, ease: "expo.out"}, 0.351);
+      tl.set("#fx0", {scale: 1.12}, 3.55);
+      tl.to("#fx0", {scale: 1, duration: 0.35, ease: "expo.out"}, 3.551);
+      tl.set("#fx2", {scale: 1.1}, 11.11);
+      tl.to("#fx2", {scale: 1, duration: 0.3, ease: "expo.out"}, 11.111);
+      tl.set("#fx3", {scale: 1.1}, 14.85);
+      tl.to("#fx3", {scale: 1, duration: 0.3, ease: "expo.out"}, 14.851);
+      tl.set("#fx4", {scale: 1.14}, 20.19);
+      tl.to("#fx4", {scale: 1, duration: 0.35, ease: "expo.out"}, 20.191);
+      tl.set("#fx4", {x: 5.8, y: 8.4}, 20.19);
+      tl.set("#fx4", {x: 2.6, y: -7.2}, 20.2233);
+      tl.set("#fx4", {x: -7.2, y: 6.0}, 20.2567);
+      tl.set("#fx4", {x: 6.7, y: -4.8}, 20.29);
+      tl.set("#fx4", {x: -3.1, y: 3.6}, 20.3233);
+      tl.set("#fx4", {x: -0.4, y: -2.4}, 20.3567);
+      tl.set("#fx4", {x: 1.3, y: 1.2}, 20.39);
+      tl.set("#fx4", {x: 0, y: 0}, 20.4233);
+      tl.set("#fx6", {scale: 1.1}, 22.57);
+      tl.to("#fx6", {scale: 1, duration: 0.3, ease: "expo.out"}, 22.571);
+      tl.set("#fx6", {scale: 1.12}, 25.57);
+      tl.to("#fx6", {scale: 1, duration: 0.3, ease: "expo.out"}, 25.571);
+      tl.fromTo("#tx0 .w", {scale: 0.6, opacity: 0}, {scale: 1, opacity: 1, duration: 0.28, ease: "back.out(2.2)", stagger: 0.09}, 0.2);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
