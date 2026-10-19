@@ -6,7 +6,9 @@ Everything runs on your own computer. The only online pieces are free: edge-tts 
 ## Demo
 
 ▶️ [Watch the demo video](
+
 https://github.com/user-attachments/assets/7fa5778b-0426-4f97-ac52-e2776099db92
+
 ): made entirely with this studio.
 ## Install (Windows 10/11)
 
