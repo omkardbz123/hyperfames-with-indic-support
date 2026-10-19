@@ -3,7 +3,9 @@
 A free, local video-editing studio driven by Claude Code, built on [HyperFrames](https://hyperframes.heygen.com) (HTML/GSAP → Chrome → FFmpeg). It makes promos, beat-sync edits, talking-head reels, lyric videos, slideshows, explainers, trailers, subtitles/dubs and restorations, with **Marathi and Hindi as first-class languages** (transcription, Devanagari captions, voiceover).
 
 Everything runs on your own computer. The only online pieces are free: edge-tts voices, Wikimedia/Openverse stock search, and (optionally) Gemini 3.8 Flash through the Antigravity app (`agy`, never the Gemini API).
+## Demo
 
+▶️ **[Watch the demo video](exports/demo.mp4)**: made entirely with this studio.
 ## Install (Windows 10/11)
 
 ```bat
