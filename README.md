@@ -5,7 +5,11 @@ A free, local video-editing studio driven by Claude Code, built on [HyperFrames]
 Everything runs on your own computer. The only online pieces are free: edge-tts voices, Wikimedia/Openverse stock search, and (optionally) Gemini 3.8 Flash through the Antigravity app (`agy`, never the Gemini API).
 ## Demo
 
-▶️ **[Watch the demo video](exports/demo.mp4)**: made entirely with this studio.
+▶️ **[Watch the demo video](
+
+https://github.com/user-attachments/assets/ec5a0eaf-4f3a-4cf6-a4c3-2f3d06fef8b0
+
+)**: made entirely with this studio.
 ## Install (Windows 10/11)
 
 ```bat
